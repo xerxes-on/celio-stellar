@@ -53,6 +53,35 @@ All colors MUST be HSL.
     --shadow-glow: 0 0 40px hsl(270, 100%, 75% / 0.4);
     --shadow-card: 0 10px 50px hsl(270, 100%, 10% / 0.6);
   }
+  
+  @keyframes shooting-star {
+    0% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(300px) translateY(300px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes particle-rise {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) scale(0);
+      opacity: 0;
+    }
+  }
+  
+  .animate-shooting-star {
+    animation: shooting-star 3s ease-out infinite;
+  }
 }
 
 @layer base {
