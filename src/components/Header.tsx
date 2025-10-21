@@ -51,8 +51,11 @@ export const Header = () => {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       <div className="flex items-center justify-between max-w-screen-2xl mx-auto">
-        {/* Left side - Logo & Social Links */}
-        <div className="flex items-center gap-8">
+        {/* Spacer for balance */}
+        <div className="w-[200px]"></div>
+
+        {/* Center - Logo & Social Links */}
+        <div className="flex items-center gap-12">
           {/* Logo */}
           <motion.a
             href="https://celion.io"
@@ -101,7 +104,7 @@ export const Header = () => {
 
         {/* Right side - Language Switcher */}
         <motion.div
-          className="flex items-center gap-2 bg-card/40 backdrop-blur-xl border border-primary/20 rounded-xl p-2"
+          className="flex items-center gap-2 bg-card/40 backdrop-blur-xl border border-primary/20 rounded-xl p-2 w-[200px] justify-center"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
