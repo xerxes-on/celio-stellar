@@ -51,35 +51,8 @@ export const Header = () => {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       <div className="flex items-center justify-between max-w-screen-2xl mx-auto">
-        {/* Left side - Language Switcher */}
-        <motion.div
-          className="flex items-center gap-2 bg-card/40 backdrop-blur-xl border border-primary/20 rounded-xl p-2"
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-        >
-          {languages.map((lang, index) => (
-            <motion.button
-              key={lang.code}
-              onClick={() => handleLanguageChange(lang.code)}
-              className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-300 ${
-                currentLang === lang.code
-                  ? "bg-gradient-to-r from-primary to-cosmic-pink text-white shadow-lg"
-                  : "text-foreground/60 hover:text-foreground/90 hover:bg-primary/10"
-              }`}
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {lang.label}
-            </motion.button>
-          ))}
-        </motion.div>
-
-        {/* Right side - Logo & Social Links */}
-        <div className="flex items-center gap-6">
+        {/* Left side - Logo & Social Links */}
+        <div className="flex items-center gap-8">
           {/* Logo */}
           <motion.a
             href="https://celion.io"
@@ -125,6 +98,33 @@ export const Header = () => {
           ))}
           </div>
         </div>
+
+        {/* Right side - Language Switcher */}
+        <motion.div
+          className="flex items-center gap-2 bg-card/40 backdrop-blur-xl border border-primary/20 rounded-xl p-2"
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+        >
+          {languages.map((lang, index) => (
+            <motion.button
+              key={lang.code}
+              onClick={() => handleLanguageChange(lang.code)}
+              className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-300 ${
+                currentLang === lang.code
+                  ? "bg-gradient-to-r from-primary to-cosmic-pink text-white shadow-lg"
+                  : "text-foreground/60 hover:text-foreground/90 hover:bg-primary/10"
+              }`}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {lang.label}
+            </motion.button>
+          ))}
+        </motion.div>
       </div>
     </motion.header>
   );
