@@ -8,7 +8,6 @@ interface ProjectsCarouselSlideProps {
 
 export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlideProps) => {
   const { t } = useTranslation();
-  const [isPaused, setIsPaused] = useState(false);
   const [projects, setProjects] = useState<any[]>([]);
   const [showTitle, setShowTitle] = useState(true);
 
@@ -80,17 +79,6 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
 
     return () => clearTimeout(titleTimer);
   }, []);
-
-  useEffect(() => {
-    // Only start the pause timer after title is hidden
-    if (!showTitle) {
-      const timer = setTimeout(() => {
-        setIsPaused(true);
-      }, 27000); // Stop after 27 seconds (30 total minus 3 for title)
-
-      return () => clearTimeout(timer);
-    }
-  }, [showTitle]);
 
   if (projects.length === 0) {
     return null; // Wait for projects to load
@@ -164,10 +152,10 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         <motion.div
           className="flex flex-col gap-8"
           initial={{ y: -1600 }}
-          animate={isPaused ? {} : { y: [-1600, -4800] }}
+          animate={{ y: [-1600, -4800] }}
           transition={{
             duration: 27,
-            repeat: isPaused ? 0 : Infinity,
+            repeat: Infinity,
             ease: "linear",
           }}
         >
@@ -196,10 +184,10 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         <motion.div
           className="flex flex-col gap-8"
           initial={{ y: -1600 }}
-          animate={isPaused ? {} : { y: [-1600, 1600] }}
+          animate={{ y: [-1600, 1600] }}
           transition={{
             duration: 27,
-            repeat: isPaused ? 0 : Infinity,
+            repeat: Infinity,
             ease: "linear",
           }}
         >
@@ -228,10 +216,10 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         <motion.div
           className="flex flex-col gap-8"
           initial={{ y: -1600 }}
-          animate={isPaused ? {} : { y: [-1600, -4800] }}
+          animate={{ y: [-1600, -4800] }}
           transition={{
             duration: 27,
-            repeat: isPaused ? 0 : Infinity,
+            repeat: Infinity,
             ease: "linear",
           }}
         >
@@ -260,10 +248,10 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         <motion.div
           className="flex flex-col gap-8"
           initial={{ y: -1600 }}
-          animate={isPaused ? {} : { y: [-1600, 1600] }}
+          animate={{ y: [-1600, 1600] }}
           transition={{
             duration: 27,
-            repeat: isPaused ? 0 : Infinity,
+            repeat: Infinity,
             ease: "linear",
           }}
         >
@@ -292,10 +280,10 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         <motion.div
           className="flex flex-col gap-8"
           initial={{ y: -1600 }}
-          animate={isPaused ? {} : { y: [-1600, -4800] }}
+          animate={{ y: [-1600, -4800] }}
           transition={{
             duration: 27,
-            repeat: isPaused ? 0 : Infinity,
+            repeat: Infinity,
             ease: "linear",
           }}
         >
@@ -324,10 +312,10 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         <motion.div
           className="flex flex-col gap-8"
           initial={{ y: -1600 }}
-          animate={isPaused ? {} : { y: [-1600, 1600] }}
+          animate={{ y: [-1600, 1600] }}
           transition={{
             duration: 27,
-            repeat: isPaused ? 0 : Infinity,
+            repeat: Infinity,
             ease: "linear",
           }}
         >
