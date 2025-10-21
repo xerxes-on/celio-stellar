@@ -1,25 +1,27 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
 
-const projects = [
-  {
-    title: "Olcha Marketplace",
-    description: "Leading trading platform in Uzbekistan with 50,000+ products",
-    tech: "E-commerce • Mobile Apps • Payments",
-  },
-  {
-    title: "TopBrains Education",
-    description: "Educational platform with courses from top instructors",
-    tech: "EdTech • React • Video Streaming",
-  },
-  {
-    title: "NASP (IHMA)",
-    description: "National Agency for Social Protection digital portal",
-    tech: "Gov Tech • Mobile • Power BI",
-  },
-];
-
 export const ProjectsSlide = () => {
+  const { t } = useTranslation();
+
+  const projects = [
+    {
+      titleKey: "projects.olcha.title",
+      descKey: "projects.olcha.description",
+      techKey: "projects.olcha.tech",
+    },
+    {
+      titleKey: "projects.topbrains.title",
+      descKey: "projects.topbrains.description",
+      techKey: "projects.topbrains.tech",
+    },
+    {
+      titleKey: "projects.nasp.title",
+      descKey: "projects.nasp.description",
+      techKey: "projects.nasp.tech",
+    },
+  ];
   return (
     <div className="h-screen flex flex-col items-center justify-center px-16">
       <motion.h2 
@@ -28,7 +30,7 @@ export const ProjectsSlide = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Our Projects
+        {t('projects.title')}
       </motion.h2>
       
       <div className="grid grid-cols-3 gap-12 max-w-7xl w-full">
@@ -65,14 +67,18 @@ export const ProjectsSlide = () => {
                 whileHover={{ rotate: 360, scale: 1.1 }}
               />
               
-              <h3 className="text-3xl font-bold mb-4 text-foreground relative z-10">{project.title}</h3>
-              <p className="text-xl text-foreground/70 mb-4 relative z-10">{project.description}</p>
+              <h3 className="text-3xl font-bold mb-4 text-foreground relative z-10">
+                {t(project.titleKey)}
+              </h3>
+              <p className="text-xl text-foreground/70 mb-4 relative z-10">
+                {t(project.descKey)}
+              </p>
               <motion.p 
                 className="text-sm text-primary font-semibold tracking-wide relative z-10"
                 animate={{ opacity: [0.7, 1, 0.7] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                {project.tech}
+                {t(project.techKey)}
               </motion.p>
             </Card>
           </motion.div>

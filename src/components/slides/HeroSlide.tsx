@@ -1,10 +1,31 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import heroTech from "@/assets/hero-tech.jpg";
 
 export const HeroSlide = () => {
-  const title = "CELION.IO";
+  const { t } = useTranslation();
+  const title = t('hero.title');
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center px-8 relative">
+    <div className="h-screen flex flex-col items-center justify-center px-8 relative overflow-hidden">
+      {/* Background Image with Parallax */}
+      <motion.div
+        className="absolute inset-0 opacity-30"
+        style={{
+          backgroundImage: `url(${heroTech})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+        animate={{
+          scale: [1, 1.1, 1],
+        }}
+        transition={{
+          duration: 20,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      />
+
       {/* Animated Particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(20)].map((_, i) => (
@@ -64,7 +85,7 @@ export const HeroSlide = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
         >
-          Where Technologies Meet Security
+          {t('hero.subtitle')}
         </motion.p>
         
         <motion.p 
@@ -73,7 +94,7 @@ export const HeroSlide = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.4, duration: 0.8 }}
         >
-          From the first line of code to reliable protection
+          {t('hero.description')}
         </motion.p>
         
         <motion.div

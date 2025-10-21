@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "title": "CELION.IO",
+    "subtitle": "Texnologiyalar va Xavfsizlik Uchrashadigan Joy",
+    "description": "Kodning birinchi qatoridan ishonchli himoyagacha"
+  },
+  "services": {
+    "title": "Bizning Xizmatlar",
+    "webDev": {
+      "title": "Veb Dasturlash",
+      "description": "Zamonaviy texnologiyalar va eng yaxshi amaliyotlar bilan maxsus veb-ilovalar"
+    },
+    "mobileDev": {
+      "title": "Mobil Dasturlash",
+      "description": "iOS va Android uchun mahalliy va ko'p platformali mobil yechimlar"
+    },
+    "security": {
+      "title": "Kiberxavfsizlik",
+      "description": "Keng qamrovli xavfsizlik auditlari va himoya yechimlari"
+    },
+    "consulting": {
+      "title": "IT Konsalting",
+      "description": "Biznesingizni rivojlantirish uchun strategik texnologiya maslahati"
+    },
+    "cloud": {
+      "title": "Bulutli Yechimlar",
+      "description": "Bulut infratuzilmasini loyihalash, ko'chirish va optimallashtirish"
+    },
+    "ai": {
+      "title": "AI va Mashinani O'rganish",
+      "description": "Aqlli avtomatlashtirish va ma'lumotlarga asoslangan tushunchalar"
+    }
+  },
+  "projects": {
+    "title": "Bizning Loyihalar",
+    "olcha": {
+      "title": "Olcha Marketplace",
+      "description": "O'zbekistondagi yetakchi savdo platformasi, 50,000+ mahsulot",
+      "tech": "Elektron tijorat • Mobil ilovalar • To'lovlar"
+    },
+    "topbrains": {
+      "title": "TopBrains Ta'lim",
+      "description": "Eng yaxshi o'qituvchilardan kurslar bilan ta'lim platformasi",
+      "tech": "Ta'lim texnologiyalari • React • Video oqimlari"
+    },
+    "nasp": {
+      "title": "NASP (IXMA)",
+      "description": "Milliy ijtimoiy himoya agentligining raqamli portali",
+      "tech": "Davlat texnologiyalari • Mobil • Power BI"
+    }
+  },
+  "about": {
+    "title": "Qanday Ishlaymiz",
+    "honesty": {
+      "title": "Halollik",
+      "description": "Natijaga halol yondashuv. Batafsil audit bilan boshlaymiz - kod, xavfsizlik va funksionallik"
+    },
+    "flexibility": {
+      "title": "Moslashuvchanlik",
+      "description": "Sizning ehtiyojlaringiz va ish ritmingizga moslashamiz, maksimal qulaylik yaratamiz"
+    },
+    "reporting": {
+      "title": "Hisobot Berish",
+      "description": "Ish jarayoni haqida muntazam hisobotlar va barcha bosqichlarda shaffof muloqot"
+    }
+  },
+  "technologies": {
+    "title": "Foydalanadigan Texnologiyalar",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "mobile": "Mobil",
+    "devops": "DevOps",
+    "database": "Ma'lumotlar bazasi"
+  },
+  "team": {
+    "title": "Bizning Jamoa",
+    "description": "Bizning jamoa mijozlarga bozor yetakchisi bo'lishga yordam beradi",
+    "cta": "Jamoamizga Qo'shiling"
+  },
+  "partners": {
+    "title": "Bizning Hamkorlar",
+    "olcha": "Olcha - O'zbekistondagi yetakchi marketplace",
+    "topbrains": "TopBrains - Ta'lim platformasi",
+    "nasp": "NASP - Davlat ijtimoiy xizmatlari",
+    "uzinfocom": "Uzinfocom - Telekommunikatsiya",
+    "imkon": "Imkon - Moliyaviy xizmatlar",
+    "trustbank": "Trust Bank - Bank yechimlari"
+  },
+  "contact": {
+    "title": "Biz Bilan Bog'laning",
+    "description": "Keyingi loyihangizni boshlashga tayyormisiz? Bugun biz bilan bog'laning!",
+    "email": "Email",
+    "phone": "Telefon",
+    "address": "Manzil",
+    "form": {
+      "name": "Ismingiz",
+      "email": "Emailingiz",
+      "message": "Xabaringiz",
+      "send": "Yuborish"
+    }
+  }
+}
