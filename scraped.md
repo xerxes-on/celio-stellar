@@ -1,0 +1,1308 @@
+<body class="u-scrollbar">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PTHZLQ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<iframe id="pdfViewer"></iframe>
+
+<div id="root" class="site">
+    <div class="site__pattern-bg"></div>
+    <div class="site__inner">
+        <!-- header BEGIN -->
+        <div style="position: absolute; top: calc(var(--header-gap, 78px) - 1px); left: 0px; width: 1px; height: 1px; visibility: hidden;"></div><header class="js-header-sticky site__header header is-sticky">
+  <div class="container container--size-md header__container">
+    <div class="header__inner">
+      <a href="https://celion.io/en" class="logo header__logo">
+        <picture class="logo__img">
+          <img src="https://celion.io/storage/images/brand-logo-white.svg" width="204" height="57" alt="Celion">
+        </picture>
+      </a>
+      <button type="button" class="js-nav-toggle d-lg-block header__toggle">
+        <svg class="u-icon">
+          <use xlink:href="https://celion.io/storage/images/icons/icons.svg#menu-open"></use>
+        </svg>
+        <svg class="u-icon">
+          <use xlink:href="https://celion.io/storage/images/icons/icons.svg#menu-close"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="header__dropdown">
+      <nav class="u-nav header__nav" role="navigation">
+                <ul class="u-nav__list">
+                      <li class="u-nav__item">
+                            <a href="https://celion.io/en#portfolio" class="u-nav__link  js-anchor ">Portfolio and cases</a>
+                          </li>
+                      <li class="u-nav__item">
+                              <button type="button" class="js-nav-submenu-toggle u-nav__btn-submenu">
+                  <svg class="u-icon">
+                    <use xlink:href="https://celion.io/storage/images/icons/icons.svg#arrow-down-1"></use>
+                  </svg>
+                </button>
+                            <a href="https://celion.io/en#" class="u-nav__link  js-anchor ">Services</a>
+                              <ul class="u-nav__dropdown">
+                                      <li class="u-nav__dropdown-item">
+                      <a href="https://celion.io/en/website" class="u-nav__dropdown-link" target="_self">Business card website development</a>
+                    </li>
+                                      <li class="u-nav__dropdown-item">
+                      <a href="https://celion.io/en/apps" class="u-nav__dropdown-link" target="_self">Smartphone applications</a>
+                    </li>
+                                      <li class="u-nav__dropdown-item">
+                      <a href="https://celion.io/en/website-design" class="u-nav__dropdown-link" target="_self">Website design development</a>
+                    </li>
+                                      <li class="u-nav__dropdown-item">
+                      <a href="https://celion.io/en/security-consulting1" class="u-nav__dropdown-link" target="_self">Security consulting</a>
+                    </li>
+                                      <li class="u-nav__dropdown-item">
+                      <a href="https://celion.io/en/odoo-implementation-uzbekistan" class="u-nav__dropdown-link" target="_self">Odoo business implementation</a>
+                    </li>
+                                      <li class="u-nav__dropdown-item">
+                      <a href="https://celion.io/en/online-market" class="u-nav__dropdown-link" target="_self">Online store development</a>
+                    </li>
+                                  </ul>
+                          </li>
+                      <li class="u-nav__item">
+                            <a href="https://celion.io/en/partnership" class="u-nav__link ">Partnership program</a>
+                          </li>
+                      <li class="u-nav__item">
+                            <a href="https://celion.io/en/contact" class="u-nav__link ">Contacts</a>
+                          </li>
+                  </ul>
+              </nav>
+      
+      
+      <div class="language-switcher">
+                
+        <div class="language-switcher__current" data-toggle="dropdown">
+          EN
+          <svg class="u-icon">
+            <use xlink:href="https://celion.io/storage/images/icons/icons.svg#arrow-down-1"></use>
+          </svg>
+        </div>
+        
+        <ul class="language-switcher__dropdown">
+                                    <li class="language-switcher__item">
+                <a rel="alternate" hreflang="ru" href="https://celion.io/ru/portfolio" class="language-switcher__link">
+                  RU
+                </a>
+              </li>
+                                                                      <li class="language-switcher__item">
+                <a rel="alternate" hreflang="uz" href="https://celion.io/uz/portfolio" class="language-switcher__link">
+                  UZ
+                </a>
+              </li>
+                              </ul>
+      </div>
+      
+      <div class="btn-group header__btn-group">
+        <div class="btn-group__inner">
+          
+          <a href="https://celion.io/storage/2/celion_en.pdf" class="js-open-pdf btn btn--theme-white-transparent btn--size-sm">
+            <span class="btn__inner">
+              <span class="btn__icon btn__icon--dir-ltr">
+                <svg class="u-icon">
+                  <use xlink:href="https://celion.io/storage/images/icons/icons.svg#triangle-1"></use>
+                </svg>
+              </span>
+              <span class="fw-500 btn__title">Presentation</span>
+            </span>
+          </a>
+          <button type="button" data-modal="popup-form" class="btn btn--theme-accent-gradient btn--size-sm">
+            <span class="btn__inner">
+              <span class="btn__title">LEAVE REQUEST</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>        <!-- header END -->
+
+        <main role="main" class="site__main">
+              
+  <section class="portfolio-page-hero">
+    <picture class="css-animated portfolio-page-hero__bg">
+      <source srcset="https://celion.io/storage/images/portfolio-bg-991.png" media="(max-width: 991px)">
+      <img src="https://celion.io/storage/images/portfolio-bg.png" alt="Portfolio and cases" width="1920" height="1817">
+    </picture>
+    <div class="portfolio-page-hero__planet-wrapper">
+      <picture class="css-animated portfolio-page-hero__planet">
+        <img src="https://celion.io/storage/images/planet.png" alt="Planet" width="800" height="800">
+      </picture>
+    </div>
+    <picture class="css-animated u-decor portfolio-page-hero__hero portfolio-page-hero__hero--2">
+      <img src="https://celion.io/storage/images/portfolio-2.png" alt="" width="596" height="898">
+    </picture>
+    <picture class="u-decor portfolio-page-hero__decor portfolio-page-hero__decor--1">
+      <img src="https://celion.io/storage/images/decor-1.svg" alt="" width="2270" height="3454">
+    </picture>
+    <div class="container container--size-md portfolio-page-hero__container">
+      <div class="portfolio-page-hero__content">
+        <div class="portfolio-page-hero__title-wrapper">
+          <h1 class="css-animated portfolio-page-hero__title">
+            We<br>
+            build<br>
+            the future
+          </h1>
+          <p class="css-animated portfolio-page-hero__title-description">
+            Exceptional&nbsp;digital solutions&nbsp;that transform&nbsp;businesses
+          </p>
+        </div>
+        <button type="button" class="css-animated d-md-block portfolio-page-hero__mobile-text">
+          <span>TRANSFORMING VISIONS INTO DIGITAL REALITY</span>
+        </button>
+        <p class="css-animated portfolio-page-hero__subtitle">
+          Explore how we help businesses transform their vision into reality
+        </p>
+        <button type="button" data-modal="popup-form" class="d-md-block btn btn--theme-accent-gradient-2 btn--size-md portfolio-page-hero__cta-btn">
+          <span class="btn__inner">
+            <span class="btn__title">GET A CONSULTATION</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="portfolio-page-grid">
+    <div class="container container--size-md portfolio-page-grid__container">
+            <div class="portfolio-page-grid__list">
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/portfolio/01JZ5221BQ4ZPEWFNPWDQHS7A0.png" width="480" height="104" alt="Olcha Marketplace ">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://olcha.uz/ru" class="portfolio-page-card__link" target="_blank" rel="noopener">Olcha Marketplace </a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Olcha Marketplace is a leading trading platform in Uzbekistan, offering an incredible selection of over 50,000 products. Their intuitive apps in the App Store and Google Play make shopping simple and convenient. They take pride in their fast delivery across the country and offer a wide range of payment options available in Uzbekistan, ensuring every customer can enjoy a hassle-free shopping experience.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: hidden; animation-delay: 0.35s; animation-name: none;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/portfolio/01JZ50WZ4PDRZSBJCVDB1R0Y9D.png" width="480" height="104" alt="TopBrains">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://topbrains.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">TopBrains</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Top Brains is an educational platform offering a wide range of courses from top instructors. They provide access to free courses and offer paid programs for in-depth learning on various topics. Top Brains is committed to delivering quality education and helping every user achieve their educational goals by providing materials from recognized experts in their fields.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 350rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/14/conversions/01K1TC8CRNX3RRRMDXVXK5JNWN-preview.png" width="480" height="104" alt="The NASP under the President of Uzbekistan">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://ihma.uz/uz/bosh-sahifa/" class="portfolio-page-card__link" target="_blank" rel="noopener">The NASP under the President of Uzbekistan</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>The National Agency for Social Protection under the President of Uzbekistan (IHMA) was established in June 2023. IHMA delivers centralized social services for vulnerable groups, including seniors, the disabled, low-income families, orphans, and survivors of domestic violence. It manages state-supported assistance programs, subsidies, and promotes international collaboration. Users can access services via the digital “My IHMA” platform to submit applications, track their progress, and receive notifications</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: hidden; animation-delay: 0.35s; animation-name: none;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/12/conversions/01K1TC2QRZT6Q35PJFTMXQCM3G-preview.png" width="480" height="104" alt="PraeLegal Uzbekistan">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://praelegal.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">PraeLegal Uzbekistan</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>PraeLegal Uzbekistan is an international law firm based in Tashkent and a member of the global PraeLegal network operating in over 140 countries. The firm provides legal services in corporate and commercial law, international arbitration, taxation, IP, finance, IT, and cryptocurrency regulation. PraeLegal Uzbekistan is recognized by Chambers &amp; Partners and Legal 500 for its strategic approach, high professionalism, and expertise in assisting foreign investors in Uzbekistan.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 1830rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/13/conversions/01K1TC5GWP2XN187QYEEZTARQZ-preview.png" width="480" height="104" alt="EMU University">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://www.emuni.uz" class="portfolio-page-card__link" target="_blank" rel="noopener">EMU University</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>EMU University is a private university in Tashkent, established between 2020 and 2022. It offers academic programs in medicine, pharmacy, business, and social sciences. The university has two modern campuses with classrooms, laboratories, and recreation areas, along with a strong clinical base for hospital practice. Over 2,500 students are enrolled. The university provides state-funded grants and private scholarships and maintains active international partnerships.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: hidden; animation-delay: 0.35s; animation-name: none;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/portfolio/01JZ5FVEGFZEQFGP47CH64FC67.png" width="480" height="104" alt="St-Sparce">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://st-spares.ru/" class="portfolio-page-card__link" target="_blank" rel="noopener">St-Sparce</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>St-Sparce is a platform offering a wide range of high-quality auto parts. They provide their customers with access to reliable and durable components for various car models. St-Sparce is committed to meeting their customers' needs by offering products from leading manufacturers and ensuring high standards of quality and service.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 3310rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/19/conversions/01K7DY2CNCXSTJPEGWS5TDQQQV-preview.png" width="480" height="104" alt="Media Park">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://mediapark.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Media Park</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Media Park is one of Uzbekistan’s leading online retailers with a strong network of offline stores. The company offers a wide range of electronics, home appliances, and other products. By combining an online platform with physical stores, Media Park provides a convenient, fast, and accessible shopping experience for every customer.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/20/conversions/01K7GHS5D05YZFEV1ND8KC6CVB-preview.png" width="480" height="104" alt="Express 24">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://express24.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Express 24</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Express 24 is one of the most popular online food delivery services in Uzbekistan. The platform connects hundreds of restaurants and cafes, offering users a convenient app and fast delivery. With its simple interface and wide range of dishes, Express 24 makes food ordering quick, reliable, and comfortable.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 4790rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/21/conversions/01K7GHZBERJR3YJYQDVJ4DXH0X-preview.png" width="480" height="104" alt="Elmakon">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://elmakon.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Elmakon</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Elmakon is one of the first and leading online stores in Uzbekistan, combining the convenience of online shopping with a network of offline stores across the country. The company offers a wide selection of electronics, home appliances, and other products. By merging an online platform with physical locations, Elmakon provides customers with a comfortable and accessible shopping experience.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/22/conversions/01K7GJ56P1ASYCAVF172FEFTWA-preview.png" width="480" height="104" alt="MyTaxi">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://mytaxi.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">MyTaxi</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>MyTaxi is a modern taxi service that offers convenient and high-quality rides across Uzbekistan. The platform provides an easy-to-use app for quick taxi booking, transparent pricing, and professional drivers. With its reliability and comfort, MyTaxi ensures every ride is safe and enjoyable for passengers.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 6270rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/23/conversions/01K7GJMM241GX9P7ZXF7T09CFS-preview.png" width="480" height="104" alt="Workly">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://workly.io/" class="portfolio-page-card__link" target="_blank" rel="noopener">Workly</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Workly is an automated time-tracking system designed to simplify workforce management. The platform helps companies monitor attendance, schedules, and employee productivity. With its modern technology and user-friendly interface, Workly enhances transparency and streamlines internal processes.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/24/conversions/01K7GP925300B123F2QJM2331Q-preview.png" width="480" height="104" alt="TezTaxi">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://tez-taxi.uz/uz" class="portfolio-page-card__link" target="_blank" rel="noopener">TezTaxi</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>TezTaxi is a convenient taxi booking service that allows users to order a ride in just one click through self-service kiosks. Customers can track the driver’s arrival and their trip using a QR code. Combining simplicity and technology, TezTaxi makes the taxi booking experience fast, safe, and modern.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 7750rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/25/conversions/01K7GPNN7P2TGMSDQXCX1W7SRQ-preview.png" width="480" height="104" alt="UFarmer">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://ufarmer.uz/ru" class="portfolio-page-card__link" target="_blank" rel="noopener">UFarmer</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>UFarmer is an integrated digital ecosystem designed to support and develop the agricultural sector. The platform combines a marketplace for farmers, agro-pharmacies, a smart agro calendar, and a plant disease recognition system powered by machine learning. With its innovative technology, UFarmer helps farmers improve efficiency, streamline operations, and make data-driven decisions.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/26/conversions/01K7GQAJP3K12T9TDJRQCX7HYB-preview.png" width="480" height="104" alt="Riders">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://uzriders.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Riders</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Riders is a specialized delivery system for bank cards ordered online across Uzbekistan. The platform ensures secure, fast, and reliable delivery that meets all banking confidentiality standards. With professional logistics and a modern approach, Riders makes receiving bank cards simple and convenient for customers.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 9230rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/27/conversions/01K7GZXZ0921XB2VJGBJ4Q0QV0-preview.png" width="480" height="104" alt="Yordamda">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://yordamda.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Yordamda</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Yordamda is an online platform that connects people who need services with those who offer them. The service brings together clients and providers, creating a convenient space for collaboration. Yordamda makes finding and offering services fast, transparent, and accessible to everyone.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/28/conversions/01K7H0M024XDE275W67ECJG29Z-preview.png" width="480" height="104" alt="Mavera">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">Mavera</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Mavera is an educational platform designed for language learning and professional skill development in various fields. The platform connects students and teachers, offering interactive courses, personalized lessons, and access to modern learning materials. With its user-friendly interface and diverse programs, Yordamda makes education accessible, effective, and inspiring.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 10710rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/29/conversions/01K7H0SVJNYXZ1VA9HH4QXRR81-preview.png" width="480" height="104" alt="Makon TV">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://makon.tv/" class="portfolio-page-card__link" target="_blank" rel="noopener">Makon TV</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Makon TV is a modern media platform that brings a world of shows, news, and entertainment right to your pocket. With its mobile app, you can watch your favorite programs anytime and anywhere. Makon TV combines current news, educational content, and exciting shows in one convenient platform.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/30/conversions/01K7H10PYGZPQ102BBT6Z7RMQ3-preview.png" width="480" height="104" alt="Umumiy">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://www.instagram.com/umumiy_uz?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" class="portfolio-page-card__link" target="_blank" rel="noopener">Umumiy</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Umumiy is a perfume distributor that combines wholesale supply with a network of offline retail locations across Uzbekistan. The company offers a wide selection of original fragrances from global brands, focusing on product quality and customer satisfaction. With its professional approach and reliable partnerships, Umumiy has established a strong presence in the perfume market.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 12190rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/31/conversions/01K7H1F57BZ6SWS72AKR7K6201-preview.png" width="480" height="104" alt="Nasiya">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://olchanasiya.uz/ru" class="portfolio-page-card__link" target="_blank" rel="noopener">Nasiya</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Nasiya is a halal installment payment system designed to make purchasing goods easy and secure without interest. It currently operates in partnership with Olcha Marketplace and several offline stores across Uzbekistan. The system allows customers to buy desired products in installments while adhering to Sharia principles and maintaining transparent payment terms.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/32/conversions/01K7H2FHCZPR4X3BAEP276CCF6-preview.png" width="480" height="104" alt="PixleToys">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://pixeltoys.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">PixleToys</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>PixleToys is an online store specializing in children’s clothing, offering a wide range of stylish, high-quality, and comfortable items for kids and teens. The platform features modern collections from trusted brands, focusing on material safety and child comfort. With PixleToys, shopping for kids becomes easy, enjoyable, and affordable for every family.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 13670rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/33/conversions/01K7H4YE9V9V6DBN3FS98W5H4Z-preview.png" width="480" height="104" alt="CRM Travel">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://crm-travel.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">CRM Travel</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>CRM Travel is a specialized CRM system designed for travel agency managers. The platform helps efficiently manage clients by collecting all leads in one centralized database and automatically assigning them to managers. It also includes HR management features, allowing agencies to organize staff operations and improve overall productivity. CRM Travel is a modern solution for automating travel business processes and enhancing customer service.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/34/conversions/01K7H58D5YJ4D794ZMYC779APP-preview.png" width="480" height="104" alt="Olcha CRM">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://merchant.olcha.uz/login" class="portfolio-page-card__link" target="_blank" rel="noopener">Olcha CRM</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Olcha CRM is a specialized customer relationship management system designed for partners collaborating with Olcha Marketplace. The platform enables users to manage products, monitor sales, and access detailed real-time reports. With Olcha CRM, businesses can efficiently track inventory, analyze performance, and optimize their operations.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 15150rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/35/conversions/01K7H5QHRAVQZ8937FZSNMD6YW-preview.png" width="480" height="104" alt="Telegram Kiosk">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://t.me//olcha_kiosk" class="portfolio-page-card__link" target="_blank" rel="noopener">Telegram Kiosk</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Telegram Kiosk is one of the first online stores developed as a Telegram bot. The platform allows users to browse products, choose items, and place orders directly through Telegram. With its simple interface and fast shopping process, Telegram Kiosk makes online purchasing easy, accessible, and user-friendly.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/36/conversions/01K7H5XQ9FAD6FZKXF2V6Y5C74-preview.png" width="480" height="104" alt="Billing">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">Billing</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Billing is a unified financial system designed to manage and track incoming funds from external sources. The platform automates processes such as automatic deductions, transaction monitoring, and financial reporting. With its reliable architecture and seamless integration, Billing provides transparency of cash flow and simplifies financial management.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 16630rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/37/conversions/01K7H63KJHCHNVJT1JYFZMXK80-preview.png" width="480" height="104" alt="Olcha Pay">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://ecosystem.olcha.uz/ru/project/olcha-pay" class="portfolio-page-card__link" target="_blank" rel="noopener">Olcha Pay</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Olcha Pay is one of the core components of the Olcha Marketplace ecosystem, designed to process and accept payments. The system operates not only within Olcha Marketplace but also serves external vendors and partners. With its high security, fast transactions, and easy integration, Olcha Pay provides reliable and modern payment solutions across Uzbekistan.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/38/conversions/01K7H6AHWCBQCRCFBET81PX8SJ-preview.png" width="480" height="104" alt="Call Centr">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">Call Centr</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Call Centr is a platform designed to manage and process incoming requests from websites, mobile apps, and other sources. It enables quick customer callbacks, pre-order management, and real-time request tracking. With CRM integration and process automation, Call Centr helps businesses improve customer service efficiency and respond promptly to client inquiries.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 18110rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/39/conversions/01K7K3A8NGVNS7ZT4MGY3P4VZE-preview.png" width="480" height="104" alt="Search">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://olcha.uz/ru" class="portfolio-page-card__link" target="_blank" rel="noopener">Search</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Search is an intelligent search engine integrated into the Olcha Marketplace website. It helps users quickly find products, brands, and categories using machine learning technologies to improve result accuracy. With adaptive search and smart query recognition, Search makes the shopping experience faster, easier, and more convenient.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/40/conversions/01K7K3JR16SJ1YC2N4JVW9XRJM-preview.png" width="480" height="104" alt="Olcha Invest">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://olchainvest.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Olcha Invest</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Olcha Invest is a halal investment system designed for safe and ethical investing in accordance with Sharia principles. The platform offers transparent and fair investment opportunities without interest or speculation. With its reliable structure and modern technology, Olcha Invest helps users grow their capital while adhering to Islamic values.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 19590rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/41/conversions/01K7K3VHGSK58JREJQE3TGFQVM-preview.png" width="480" height="104" alt="MSM Capital">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">MSM Capital</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>MSM Capital is an investment holding company that unites multiple business sectors and projects under one structure. The company focuses on developing, managing, and supporting subsidiaries across technology, commerce, finance, and service industries. With a strategic approach and innovative vision, MSM Capital drives sustainable growth and fosters a strong partner ecosystem.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/42/conversions/01K7K3YY1MM5T2HYHC4V92VFZD-preview.png" width="480" height="104" alt="ASTRA Building">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">ASTRA Building</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>ASTRA Building is a construction company specializing in residential and commercial building projects. The company combines modern technologies, high-quality materials, and professional expertise to ensure the reliability and durability of its developments. ASTRA Building is dedicated to creating comfortable, aesthetically pleasing, and safe spaces for living and business.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--left" style="top: 21070rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/43/conversions/01K7K464AVYZD316VA6XJV004B-preview.png" width="480" height="104" alt="Olcha Nasiya CRM">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">Olcha Nasiya CRM</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Olcha Nasiya CRM is a specialized CRM system designed for offline stores operating under the Nasiya installment system. The platform provides full control over sales, customer management, and financial operations. With Olcha Nasiya CRM, store owners can manage inventory, track payments, and handle installment agreements through one convenient interface.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/44/conversions/01K7K4AS045WNYTFQWTF7B52MR-preview.png" width="480" height="104" alt="IHMA Power BI">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">IHMA Power BI</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>IHMA Power BI is an analytical dashboard that consolidates a wide range of valuable data and metrics into one interface. The platform enables users to visualize key indicators, analyze performance, and make data-driven decisions based on up-to-date insights. With integration from multiple data sources, IHMA Power BI makes analytics clear, efficient, and accessible.</p>
+              </div>
+            </div>
+          </article>
+                  
+                                  <picture class="u-decor portfolio-page-grid__astronaut portfolio-page-grid__astronaut--right" style="top: 22550rem;">
+              <img src="https://celion.io/storage/images/portfolio-1.png" alt="" width="390" height="496">
+            </picture>
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/45/conversions/01K7K4R18WYVBJYK3WD604VQPV-preview.png" width="480" height="104" alt="IHMA Delegation">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="#" class="portfolio-page-card__link" target="_blank" rel="noopener">IHMA Delegation</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>IHMA Delegation is a platform designed for complete management and coordination of delegation meetings. It covers the entire process — from planning and scheduling to notifications and messaging. The system also includes tools for managing volunteers and drivers, ensuring smooth communication and full transparency. IHMA Delegation makes event organization convenient, automated, and highly efficient.</p>
+              </div>
+            </div>
+          </article>
+                  
+          
+          
+                    <article class="wow fadeIn portfolio-page-card" data-wow-delay="0.35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeIn;">
+            <div class="portfolio-page-card__media">
+              <picture class="portfolio-page-card__picture">
+                                  <img src="https://celion.io/storage/50/conversions/01K7M2TFCHCZC476PQ2XAFPV39-preview.png" width="480" height="104" alt="Vafra Group">
+                              </picture>
+            </div>
+            <div class="portfolio-page-card__content">
+              <h3 class="portfolio-page-card__title">
+                                  <a href="https://vafraplast.uz/" class="portfolio-page-card__link" target="_blank" rel="noopener">Vafra Group</a>
+                              </h3>
+              <div class="u-content portfolio-page-card__text">
+                <p>Vafra Group is a company specializing in modern window solutions. It offers a wide range of products, including energy-efficient, soundproof, and stylish windows for both residential and commercial buildings. Through the use of innovative technologies and high-quality materials, Vafra Group delivers durability, comfort, and aesthetic appeal in every product.</p>
+              </div>
+            </div>
+          </article>
+              </div>
+          </div>
+  </section>
+
+  
+  <section class="wow fadeIn portfolio-page-cta" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+    <div class="container container--size-md portfolio-page-cta__container">
+      <div class="portfolio-page-cta__content">
+        <h2 class="portfolio-page-cta__title">Ready to Start Your Project?</h2>
+        <p class="portfolio-page-cta__description">Let's discuss your project requirements and turn your ideas into reality</p>
+      </div>
+      <button type="button" data-modal="popup-form" class="btn btn--theme-accent-gradient-2 btn--size-md portfolio-page-cta__btn">
+        <span class="btn__inner">
+          <span class="btn__title">GET A CONSULTATION</span>
+        </span>
+      </button>
+    </div>
+  </section>
+
+  
+  <picture class="u-decor portfolio-page__decor portfolio-page__decor--2">
+    <img src="https://celion.io/storage/images/decor-1.svg" alt="" width="2270" height="3454">
+  </picture>
+        </main>
+
+        <!-- footer BEGIN -->
+        <footer class="site__footer footer">
+  <picture class="footer__bg">
+    
+    <img src="https://celion.io/storage/images/footer-bg.jpg" alt="" width="1920" height="505">
+  </picture>
+  <div class="container container--size-md footer__container">
+    <a href="https://celion.io/en" class="logo footer__logo">
+      <picture class="logo__img">
+        <img src="https://celion.io/storage/images/brand-logo-white.svg" width="204" height="57" alt="Celion">
+      </picture>
+    </a>
+    <div class="footer__nav-wrapper">
+      <nav class="footer__nav" role="navigation">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+            <a href="https://celion.io/en#portfolio" class="footer__nav-link  js-anchor " target="_self">Portfolio and cases</a>
+          </li>
+                    <li class="footer__nav-item">
+            <a href="https://celion.io/en/partnership" class="footer__nav-link " target="_self">Partnership program</a>
+          </li>
+                    <li class="footer__nav-item">
+            <a href="https://celion.io/en/contact" class="footer__nav-link " target="_self">Contacts</a>
+          </li>
+                  </ul>
+              </nav>
+                  <div class="sc-block footer__sc">
+        <ul class="sc-block__list">
+                    <li class="sc-block__item">
+            <a href="https://www.instagram.com/celion.io/?igsh=bWwyYjhyOGJveni6#" class="sc-block__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                              <svg class="u-icon">
+                  <use xlink:href="https://celion.io/storage/images/icons/icons.svg#sc-instagram"></use>
+                </svg>
+                          </a>
+          </li>
+                    <li class="sc-block__item">
+            <a href="https://www.facebook.com/people/Celion-Io/pfbid0LL1MXSveDAJjm4jnRDwKc1a3h3FUSg7ApuAD2iyPDQ6Yb5bhHdEz7MfpWsBYJVrfl/?locale=ru_RU" class="sc-block__link" target="_blank" rel="noopener noreferrer" title="Facebook">
+                              <svg class="u-icon">
+                  <use xlink:href="https://celion.io/storage/images/icons/icons.svg#sc-facebook"></use>
+                </svg>
+                          </a>
+          </li>
+                  </ul>
+      </div>
+          </div>
+    <p class="footer__copyright">Celion © 2025. All rights reserved.</p>
+  </div>
+</footer>
+        <!-- footer END -->
+    </div>
+    <div class="popup" data-popup="popup-form" data-close-overlay="" aria-hidden="true">
+  <div class="popup__wrapper" data-close-overlay="">
+    <div class="popup__content">
+      <button type="button" class="js-button-close popup__btn-close">
+        <svg class="u-icon btn-close__icon">
+          <use xlink:href="https://celion.io/storage/images/icons/icons.svg#close"></use>
+        </svg>
+      </button>
+      <div class="popup__main">
+        <p class="title fs-6 popup__title">Callback</p>
+        <p class="popup__description">Leave your details and we will contact you shortly.</p> 
+        <form action="https://celion.io/callback-request" method="POST" class="popup__form">
+          <input type="hidden" name="_token" value="TLMtwIh7FSt7NPOpYdOM1ndAowXQf5snRycUzpWX" autocomplete="off"> 
+          <input type="text" name="name" class="u-input u-input--size-md u-input--type-textarea u-input--theme-white-light popup__input" required="" placeholder="How should we address you?">
+          <div class="popup__input-wrapper">
+            <div class="phone-input-wrapper"><button type="button" class="flag-selector" aria-label="Select country" aria-expanded="false">
+      <img class="flag-selector__flag" src="https://flagcdn.com/24x18/uz.png" alt="Uzbekistan" width="24" height="18">
+      <svg class="flag-selector__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none">
+        <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button><input type="tel" name="phone" class="u-input u-input--size-md u-input--type-textarea u-input--theme-white-light popup__input phone-input-wrapper__input" required="" placeholder="Your phone number*"><div class="flag-dropdown" role="listbox">
+      <div class="flag-dropdown__item" data-country="RU" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/ru.png" alt="Russia" width="24" height="18">
+        <span class="flag-dropdown__name">Russia</span>
+        <span class="flag-dropdown__code">+7</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="UZ" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/uz.png" alt="Uzbekistan" width="24" height="18">
+        <span class="flag-dropdown__name">Uzbekistan</span>
+        <span class="flag-dropdown__code">+998</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="US" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/us.png" alt="United States" width="24" height="18">
+        <span class="flag-dropdown__name">United States</span>
+        <span class="flag-dropdown__code">+1</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="CA" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/ca.png" alt="Canada" width="24" height="18">
+        <span class="flag-dropdown__name">Canada</span>
+        <span class="flag-dropdown__code">+1</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="GB" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/gb.png" alt="United Kingdom" width="24" height="18">
+        <span class="flag-dropdown__name">United Kingdom</span>
+        <span class="flag-dropdown__code">+44</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="DE" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/de.png" alt="Germany" width="24" height="18">
+        <span class="flag-dropdown__name">Germany</span>
+        <span class="flag-dropdown__code">+49</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="FR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/fr.png" alt="France" width="24" height="18">
+        <span class="flag-dropdown__name">France</span>
+        <span class="flag-dropdown__code">+33</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="IT" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/it.png" alt="Italy" width="24" height="18">
+        <span class="flag-dropdown__name">Italy</span>
+        <span class="flag-dropdown__code">+39</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="ES" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/es.png" alt="Spain" width="24" height="18">
+        <span class="flag-dropdown__name">Spain</span>
+        <span class="flag-dropdown__code">+34</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="CN" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/cn.png" alt="China" width="24" height="18">
+        <span class="flag-dropdown__name">China</span>
+        <span class="flag-dropdown__code">+86</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="JP" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/jp.png" alt="Japan" width="24" height="18">
+        <span class="flag-dropdown__name">Japan</span>
+        <span class="flag-dropdown__code">+81</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="KR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/kr.png" alt="South Korea" width="24" height="18">
+        <span class="flag-dropdown__name">South Korea</span>
+        <span class="flag-dropdown__code">+82</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="IN" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/in.png" alt="India" width="24" height="18">
+        <span class="flag-dropdown__name">India</span>
+        <span class="flag-dropdown__code">+91</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="BR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/br.png" alt="Brazil" width="24" height="18">
+        <span class="flag-dropdown__name">Brazil</span>
+        <span class="flag-dropdown__code">+55</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="MX" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/mx.png" alt="Mexico" width="24" height="18">
+        <span class="flag-dropdown__name">Mexico</span>
+        <span class="flag-dropdown__code">+52</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="AU" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/au.png" alt="Australia" width="24" height="18">
+        <span class="flag-dropdown__name">Australia</span>
+        <span class="flag-dropdown__code">+61</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="TR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/tr.png" alt="Turkey" width="24" height="18">
+        <span class="flag-dropdown__name">Turkey</span>
+        <span class="flag-dropdown__code">+90</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="UA" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/ua.png" alt="Ukraine" width="24" height="18">
+        <span class="flag-dropdown__name">Ukraine</span>
+        <span class="flag-dropdown__code">+380</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="BY" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/by.png" alt="Belarus" width="24" height="18">
+        <span class="flag-dropdown__name">Belarus</span>
+        <span class="flag-dropdown__code">+375</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="KZ" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/kz.png" alt="Kazakhstan" width="24" height="18">
+        <span class="flag-dropdown__name">Kazakhstan</span>
+        <span class="flag-dropdown__code">+77</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="KG" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/kg.png" alt="Kyrgyzstan" width="24" height="18">
+        <span class="flag-dropdown__name">Kyrgyzstan</span>
+        <span class="flag-dropdown__code">+996</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="TJ" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/tj.png" alt="Tajikistan" width="24" height="18">
+        <span class="flag-dropdown__name">Tajikistan</span>
+        <span class="flag-dropdown__code">+992</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="TM" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/tm.png" alt="Turkmenistan" width="24" height="18">
+        <span class="flag-dropdown__name">Turkmenistan</span>
+        <span class="flag-dropdown__code">+993</span>
+      </div>
+    </div></div>
+          </div>
+          <button type="submit" class="btn btn--theme-accent-gradient btn--size-md popup__btn" data-original-content="
+            &lt;span class=&quot;btn__inner&quot;&gt;
+              &lt;span class=&quot;btn__title&quot;&gt;Request a call&lt;/span&gt;
+            &lt;/span&gt;
+          ">
+            <span class="btn__inner">
+              <span class="btn__title">Request a call</span>
+            </span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup" data-popup="popup-thanks" data-close-overlay="" aria-hidden="true">
+  <div class="popup__wrapper" data-close-overlay="">
+    <div class="popup__content">
+      <button type="button" class="js-button-close popup__btn-close">
+        <svg class="u-icon btn-close__icon">
+          <use xlink:href="https://celion.io/storage/images/icons/icons.svg#close"></use>
+        </svg>
+      </button>
+      <div class="popup__main">
+        <div class="thanks-message">
+          <p class="title fs-6 thanks-message__title">Thank you for your request!</p>
+          <p class="thanks-message__description">We will contact you shortly</p>
+          
+          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204 204" class="thanks-message__icon"><g clip-path="url(#a)"><path d="M102 204a102 102 0 1 0 0-204 102 102 0 0 0 0 204" fill="url(#b)"></path><path d="M204 103.8a102 102 0 0 1-72.4 95.8l-58.1-58.1L160 60z" fill="url(#c)"></path><path d="M164.2 69.8a14 14 0 0 1-4.1 9.8L95.6 144a14 14 0 0 1-19.6 0l-32-32a13.9 13.9 0 1 1 19.6-19.7l22.3 22.3L140.5 60a13.9 13.9 0 0 1 23.7 9.8" fill="#fff"></path></g><defs><linearGradient id="b" x1="-5.8" y1="0" x2="257.3" y2="223" gradientUnits="userSpaceOnUse"><stop stop-color="#2D5DFF"></stop><stop offset="1" stop-color="#F51AD6"></stop></linearGradient><linearGradient id="c" x1="69.8" y1="60" x2="247.5" y2="200.8" gradientUnits="userSpaceOnUse"><stop stop-color="#2D5DFF"></stop><stop offset="1" stop-color="#F51AD6"></stop></linearGradient><clipPath id="a"><path fill="#fff" d="M0 0h204v204H0z"></path></clipPath></defs></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="popup" data-popup="popup-order" data-close-overlay="" aria-hidden="true">
+  <div class="popup__wrapper" data-close-overlay="">
+    <div class="popup__content">
+      <button type="button" class="js-button-close popup__btn-close">
+        <svg class="u-icon btn-close__icon">
+          <use xlink:href="https://celion.io/storage/images/icons/icons.svg#close"></use>
+        </svg>
+      </button>
+      <div class="popup__main">
+        <p class="title fs-6 popup__title" id="order-modal-title">Order Service</p>
+        <p class="popup__description">Leave your phone number and we will contact you shortly.</p>
+        <form action="https://celion.io/order-request" method="POST" class="popup__form order-form">
+          <input type="hidden" name="_token" value="TLMtwIh7FSt7NPOpYdOM1ndAowXQf5snRycUzpWX" autocomplete="off">          <input type="hidden" name="service_name" id="order-service-name" value="">
+          <div class="popup__input-wrapper">
+            <button type="button" class="flag-selector" aria-label="Select country" aria-expanded="false">
+      <img class="flag-selector__flag" src="https://flagcdn.com/24x18/uz.png" alt="Uzbekistan" width="24" height="18">
+      <svg class="flag-selector__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none">
+        <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button><input type="tel" name="phone" class="u-input u-input--size-md u-input--type-textarea u-input--theme-white-light popup__input phone-input-wrapper__input" required="" placeholder="Your phone number*">
+          <div class="flag-dropdown" role="listbox">
+      <div class="flag-dropdown__item" data-country="RU" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/ru.png" alt="Russia" width="24" height="18">
+        <span class="flag-dropdown__name">Russia</span>
+        <span class="flag-dropdown__code">+7</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="UZ" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/uz.png" alt="Uzbekistan" width="24" height="18">
+        <span class="flag-dropdown__name">Uzbekistan</span>
+        <span class="flag-dropdown__code">+998</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="US" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/us.png" alt="United States" width="24" height="18">
+        <span class="flag-dropdown__name">United States</span>
+        <span class="flag-dropdown__code">+1</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="CA" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/ca.png" alt="Canada" width="24" height="18">
+        <span class="flag-dropdown__name">Canada</span>
+        <span class="flag-dropdown__code">+1</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="GB" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/gb.png" alt="United Kingdom" width="24" height="18">
+        <span class="flag-dropdown__name">United Kingdom</span>
+        <span class="flag-dropdown__code">+44</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="DE" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/de.png" alt="Germany" width="24" height="18">
+        <span class="flag-dropdown__name">Germany</span>
+        <span class="flag-dropdown__code">+49</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="FR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/fr.png" alt="France" width="24" height="18">
+        <span class="flag-dropdown__name">France</span>
+        <span class="flag-dropdown__code">+33</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="IT" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/it.png" alt="Italy" width="24" height="18">
+        <span class="flag-dropdown__name">Italy</span>
+        <span class="flag-dropdown__code">+39</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="ES" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/es.png" alt="Spain" width="24" height="18">
+        <span class="flag-dropdown__name">Spain</span>
+        <span class="flag-dropdown__code">+34</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="CN" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/cn.png" alt="China" width="24" height="18">
+        <span class="flag-dropdown__name">China</span>
+        <span class="flag-dropdown__code">+86</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="JP" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/jp.png" alt="Japan" width="24" height="18">
+        <span class="flag-dropdown__name">Japan</span>
+        <span class="flag-dropdown__code">+81</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="KR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/kr.png" alt="South Korea" width="24" height="18">
+        <span class="flag-dropdown__name">South Korea</span>
+        <span class="flag-dropdown__code">+82</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="IN" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/in.png" alt="India" width="24" height="18">
+        <span class="flag-dropdown__name">India</span>
+        <span class="flag-dropdown__code">+91</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="BR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/br.png" alt="Brazil" width="24" height="18">
+        <span class="flag-dropdown__name">Brazil</span>
+        <span class="flag-dropdown__code">+55</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="MX" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/mx.png" alt="Mexico" width="24" height="18">
+        <span class="flag-dropdown__name">Mexico</span>
+        <span class="flag-dropdown__code">+52</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="AU" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/au.png" alt="Australia" width="24" height="18">
+        <span class="flag-dropdown__name">Australia</span>
+        <span class="flag-dropdown__code">+61</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="TR" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/tr.png" alt="Turkey" width="24" height="18">
+        <span class="flag-dropdown__name">Turkey</span>
+        <span class="flag-dropdown__code">+90</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="UA" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/ua.png" alt="Ukraine" width="24" height="18">
+        <span class="flag-dropdown__name">Ukraine</span>
+        <span class="flag-dropdown__code">+380</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="BY" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/by.png" alt="Belarus" width="24" height="18">
+        <span class="flag-dropdown__name">Belarus</span>
+        <span class="flag-dropdown__code">+375</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="KZ" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/kz.png" alt="Kazakhstan" width="24" height="18">
+        <span class="flag-dropdown__name">Kazakhstan</span>
+        <span class="flag-dropdown__code">+77</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="KG" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/kg.png" alt="Kyrgyzstan" width="24" height="18">
+        <span class="flag-dropdown__name">Kyrgyzstan</span>
+        <span class="flag-dropdown__code">+996</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="TJ" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/tj.png" alt="Tajikistan" width="24" height="18">
+        <span class="flag-dropdown__name">Tajikistan</span>
+        <span class="flag-dropdown__code">+992</span>
+      </div>
+    
+      <div class="flag-dropdown__item" data-country="TM" role="option" tabindex="0">
+        <img class="flag-dropdown__flag" src="https://flagcdn.com/24x18/tm.png" alt="Turkmenistan" width="24" height="18">
+        <span class="flag-dropdown__name">Turkmenistan</span>
+        <span class="flag-dropdown__code">+993</span>
+      </div>
+    </div></div>
+          <button type="submit" class="btn btn--theme-accent-gradient btn--size-md popup__btn" data-original-content="
+            &lt;span class=&quot;btn__inner&quot;&gt;
+              &lt;span class=&quot;btn__title&quot;&gt;Order Now&lt;/span&gt;
+            &lt;/span&gt;
+          ">
+            <span class="btn__inner">
+              <span class="btn__title">Order Now</span>
+            </span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i]
+
+        function () {
+            (m[i].a = m[i].a[]).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+            if (document.scripts[j].src === r) {
+                return;
+            }
+        }
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=103799875', 'ym');
+
+    ym(103799875, 'init', {
+        ssr: true,
+        webvisor: true,
+        clickmap: true,
+        ecommerce: "dataLayer",
+        accurateTrackBounce: true,
+        trackLinks: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/103799875" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+</body>

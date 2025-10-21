@@ -2,7 +2,19 @@
   "hero": {
     "title": "CELION.IO",
     "subtitle": "Where Technologies Meet Security",
-    "description": "From the first line of code to reliable protection"
+    "description": "From the first line of code to reliable protection",
+    "stats": {
+      "projects": "50+",
+      "projectsLabel": "Successful Projects",
+      "clients": "30+",
+      "clientsLabel": "Happy Clients",
+      "years": "5+",
+      "yearsLabel": "Years of Excellence",
+      "team": "20+",
+      "teamLabel": "Expert Team Members"
+    },
+    "impact": "Our Impact",
+    "impactDescription": "Trusted by leading companies across Uzbekistan"
   },
   "services": {
     "title": "Our Services",
@@ -35,18 +47,173 @@
     "title": "Our Projects",
     "olcha": {
       "title": "Olcha Marketplace",
-      "description": "Leading trading platform in Uzbekistan with 50,000+ products",
-      "tech": "E-commerce • Mobile Apps • Payments"
+      "description": "Leading trading platform in Uzbekistan, offering an incredible selection of over 50,000 products. Their intuitive apps in the App Store and Google Play make shopping simple and convenient. Fast delivery across the country and wide range of payment options available in Uzbekistan.",
+      "tech": "React • Node.js • PostgreSQL • Redis • Microservices"
     },
     "topbrains": {
-      "title": "TopBrains Education",
-      "description": "Educational platform with courses from top instructors",
-      "tech": "EdTech • React • Video Streaming"
+      "title": "TopBrains",
+      "description": "Educational platform offering a wide range of courses from top instructors. They provide access to free courses and offer paid programs for in-depth learning on various topics. Committed to delivering quality education and helping every user achieve their educational goals.",
+      "tech": "Next.js • Video Streaming • Learning Management • Analytics"
     },
-    "nasp": {
-      "title": "NASP (IHMA)",
-      "description": "National Agency for Social Protection digital portal",
-      "tech": "Gov Tech • Mobile • Power BI"
+    "ihma": {
+      "title": "IHMA (NASP)",
+      "description": "National Agency for Social Protection under the President of Uzbekistan established in June 2023. IHMA delivers centralized social services for vulnerable groups. Users can access services via the digital 'My IHMA' platform to submit applications and track their progress.",
+      "tech": "Gov Tech • Power BI • Portal Development • Cloud Infrastructure"
+    },
+    "praelegal": {
+      "title": "PraeLegal Uzbekistan",
+      "description": "International law firm based in Tashkent and a member of the global PraeLegal network operating in over 140 countries. The firm provides legal services in corporate and commercial law, international arbitration, taxation, IP, finance, IT, and cryptocurrency regulation.",
+      "tech": "Legal Tech • Document Management • CRM • Case Management"
+    },
+    "emu": {
+      "title": "EMU University",
+      "description": "Private university in Tashkent, established between 2020 and 2022. Offers academic programs in medicine, pharmacy, business, and social sciences. The university has two modern campuses with strong clinical base for hospital practice. Over 2,500 students are enrolled.",
+      "tech": "LMS • Student Portal • Campus Management • E-Learning"
+    },
+    "express24": {
+      "title": "Express 24",
+      "description": "One of the most popular online food delivery services in Uzbekistan. The platform connects hundreds of restaurants and cafes, offering users a convenient app and fast delivery. With its simple interface and wide range of dishes, makes food ordering quick and reliable.",
+      "tech": "React Native • Real-time • Geo-location • Payment Gateway"
+    },
+    "mediapark": {
+      "title": "Media Park",
+      "description": "One of Uzbekistan's leading online retailers with a strong network of offline stores. The company offers a wide range of electronics, home appliances, and other products. By combining an online platform with physical stores, provides convenient and accessible shopping experience.",
+      "tech": "E-commerce • Inventory Management • POS Integration • Mobile Apps"
+    },
+    "elmakon": {
+      "title": "Elmakon",
+      "description": "One of the first and leading online stores in Uzbekistan, combining the convenience of online shopping with a network of offline stores across the country. Offers wide selection of electronics, home appliances, and other products for comfortable shopping experience.",
+      "tech": "E-commerce • Multi-channel • Logistics • Payment Systems"
+    },
+    "mytaxi": {
+      "title": "MyTaxi",
+      "description": "Modern taxi service that offers convenient and high-quality rides across Uzbekistan. The platform provides an easy-to-use app for quick taxi booking, transparent pricing, and professional drivers. Ensures every ride is safe and enjoyable for passengers.",
+      "tech": "React Native • Real-time Tracking • Payment Gateway • Driver App"
+    },
+    "workly": {
+      "title": "Workly",
+      "description": "Automated time-tracking system designed to simplify workforce management. The platform helps companies monitor attendance, schedules, and employee productivity. With its modern technology and user-friendly interface, enhances transparency and streamlines internal processes.",
+      "tech": "HR Tech • Time Tracking • Analytics • Mobile & Web Apps"
+    },
+    "ufarmer": {
+      "title": "UFarmer",
+      "description": "Integrated digital ecosystem designed to support and develop the agricultural sector. The platform combines a marketplace for farmers, agro-pharmacies, a smart agro calendar, and a plant disease recognition system powered by machine learning.",
+      "tech": "Marketplace • Machine Learning • Mobile Apps • IoT Integration"
+    },
+    "mavera": {
+      "title": "Mavera",
+      "description": "Educational platform designed for language learning and professional skill development in various fields. The platform connects students and teachers, offering interactive courses, personalized lessons, and access to modern learning materials.",
+      "tech": "EdTech • Video Conferencing • LMS • Interactive Learning"
+    },
+    "stsparce": {
+      "title": "St-Sparce",
+      "description": "Platform offering a wide range of high-quality auto parts. Provides customers with access to reliable and durable components for various car models. Committed to meeting customers' needs by offering products from leading manufacturers.",
+      "tech": "E-commerce • Inventory • Parts Catalog • B2B Platform"
+    },
+    "makontv": {
+      "title": "Makon TV",
+      "description": "Modern media platform that brings a world of shows, news, and entertainment right to your pocket. With its mobile app, you can watch your favorite programs anytime and anywhere. Combines current news, educational content, and exciting shows.",
+      "tech": "Video Streaming • CDN • Mobile Apps • Content Management"
+    },
+    "umumiy": {
+      "title": "Umumiy",
+      "description": "Perfume distributor that combines wholesale supply with a network of offline retail locations across Uzbekistan. Offers wide selection of original fragrances from global brands, focusing on product quality and customer satisfaction.",
+      "tech": "Retail Management • Inventory • POS • E-commerce"
+    },
+    "nasiya": {
+      "title": "Nasiya",
+      "description": "Halal installment payment system designed to make purchasing goods easy and secure without interest. Operates in partnership with Olcha Marketplace and several offline stores across Uzbekistan. Allows customers to buy desired products in installments while adhering to Sharia principles.",
+      "tech": "Fintech • Payment Gateway • Sharia Compliance • Mobile Apps"
+    },
+    "pixletoys": {
+      "title": "PixleToys",
+      "description": "Online store specializing in children's clothing, offering a wide range of stylish, high-quality, and comfortable items for kids and teens. Features modern collections from trusted brands, focusing on material safety and child comfort.",
+      "tech": "E-commerce • Product Catalog • Mobile Shopping • Payment Integration"
+    },
+    "crmtravel": {
+      "title": "CRM Travel",
+      "description": "Specialized CRM system designed for travel agency managers. Helps efficiently manage clients by collecting all leads in one centralized database and automatically assigning them to managers. Includes HR management features for organizing staff operations.",
+      "tech": "CRM • Lead Management • HR Module • Analytics Dashboard"
+    },
+    "olchacrm": {
+      "title": "Olcha CRM",
+      "description": "Specialized customer relationship management system designed for partners collaborating with Olcha Marketplace. Enables users to manage products, monitor sales, and access detailed real-time reports. Helps businesses efficiently track inventory and optimize operations.",
+      "tech": "CRM • Real-time Analytics • Inventory Management • API Integration"
+    },
+    "telegramkiosk": {
+      "title": "Telegram Kiosk",
+      "description": "One of the first online stores developed as a Telegram bot. Allows users to browse products, choose items, and place orders directly through Telegram. With its simple interface and fast shopping process, makes online purchasing easy and accessible.",
+      "tech": "Telegram Bot • E-commerce • Payment Integration • Order Management"
+    },
+    "billing": {
+      "title": "Billing",
+      "description": "Unified financial system designed to manage and track incoming funds from external sources. Automates processes such as automatic deductions, transaction monitoring, and financial reporting. Provides transparency of cash flow and simplifies financial management.",
+      "tech": "Fintech • Payment Processing • Reporting • Integration"
+    },
+    "olchapay": {
+      "title": "Olcha Pay",
+      "description": "One of the core components of the Olcha Marketplace ecosystem, designed to process and accept payments. The system operates not only within Olcha Marketplace but also serves external vendors and partners. With high security, fast transactions, and easy integration.",
+      "tech": "Payment Gateway • Security • API • Multi-channel Processing"
+    },
+    "callcentr": {
+      "title": "Call Centr",
+      "description": "Platform designed to manage and process incoming requests from websites, mobile apps, and other sources. Enables quick customer callbacks, pre-order management, and real-time request tracking. With CRM integration and process automation, improves customer service efficiency.",
+      "tech": "Call Center • CRM Integration • Auto-dialer • Real-time Dashboard"
+    },
+    "search": {
+      "title": "Search",
+      "description": "Intelligent search engine integrated into the Olcha Marketplace website. Helps users quickly find products, brands, and categories using machine learning technologies to improve result accuracy. With adaptive search and smart query recognition.",
+      "tech": "Elasticsearch • Machine Learning • NLP • Real-time Indexing"
+    },
+    "olchainvest": {
+      "title": "Olcha Invest",
+      "description": "Halal investment system designed for safe and ethical investing in accordance with Sharia principles. Offers transparent and fair investment opportunities without interest or speculation. With reliable structure and modern technology, helps users grow their capital while adhering to Islamic values.",
+      "tech": "Fintech • Investment Platform • Sharia Compliance • Analytics"
+    },
+    "msmcapital": {
+      "title": "MSM Capital",
+      "description": "Investment holding company that unites multiple business sectors and projects under one structure. Focuses on developing, managing, and supporting subsidiaries across technology, commerce, finance, and service industries. Strategic approach and innovative vision drives sustainable growth.",
+      "tech": "Portfolio Management • Analytics • Financial Reporting • Dashboard"
+    },
+    "astrabuilding": {
+      "title": "ASTRA Building",
+      "description": "Construction company specializing in residential and commercial building projects. Combines modern technologies, high-quality materials, and professional expertise to ensure reliability and durability of developments. Dedicated to creating comfortable and safe spaces.",
+      "tech": "Construction Management • Project Planning • BIM • Resource Tracking"
+    },
+    "olchanasiyacrm": {
+      "title": "Olcha Nasiya CRM",
+      "description": "Specialized CRM system designed for offline stores operating under the Nasiya installment system. Provides full control over sales, customer management, and financial operations. Store owners can manage inventory, track payments, and handle installment agreements.",
+      "tech": "CRM • POS Integration • Payment Tracking • Inventory Management"
+    },
+    "ihmapowerbi": {
+      "title": "IHMA Power BI",
+      "description": "Analytical dashboard that consolidates a wide range of valuable data and metrics into one interface. Enables users to visualize key indicators, analyze performance, and make data-driven decisions based on up-to-date insights. Integration from multiple data sources makes analytics clear and efficient.",
+      "tech": "Power BI • Data Analytics • Visualization • Real-time Dashboards"
+    },
+    "ihmadelegation": {
+      "title": "IHMA Delegation",
+      "description": "Platform designed for complete management and coordination of delegation meetings. Covers the entire process from planning and scheduling to notifications and messaging. Includes tools for managing volunteers and drivers, ensuring smooth communication and full transparency.",
+      "tech": "Event Management • Scheduling • Notifications • Volunteer Management"
+    },
+    "vafragroup": {
+      "title": "Vafra Group",
+      "description": "Company specializing in modern window solutions. Offers a wide range of products, including energy-efficient, soundproof, and stylish windows for both residential and commercial buildings. Through innovative technologies and high-quality materials, delivers durability and comfort.",
+      "tech": "E-commerce • Product Catalog • B2B Platform • Inventory"
+    },
+    "teztaxi": {
+      "title": "TezTaxi",
+      "description": "Convenient taxi booking service that allows users to order a ride in just one click through self-service kiosks. Customers can track the driver's arrival and their trip using a QR code. Combining simplicity and technology, makes taxi booking fast, safe, and modern.",
+      "tech": "Kiosk System • QR Integration • Real-time Tracking • Payment"
+    },
+    "riders": {
+      "title": "Riders",
+      "description": "Specialized delivery system for bank cards ordered online across Uzbekistan. Ensures secure, fast, and reliable delivery that meets all banking confidentiality standards. With professional logistics and modern approach, makes receiving bank cards simple and convenient.",
+      "tech": "Logistics • Real-time Tracking • Security • Mobile Apps"
+    },
+    "yordamda": {
+      "title": "Yordamda",
+      "description": "Online platform that connects people who need services with those who offer them. The service brings together clients and providers, creating a convenient space for collaboration. Makes finding and offering services fast, transparent, and accessible to everyone.",
+      "tech": "Marketplace • Booking System • Payment Gateway • Rating System"
     }
   },
   "about": {
@@ -64,39 +231,43 @@
       "description": "Regular reports on work progress and transparent communication at all stages"
     }
   },
-  "technologies": {
-    "title": "Technologies We Use",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "mobile": "Mobile",
-    "devops": "DevOps",
-    "database": "Database"
-  },
   "team": {
     "title": "Our Team",
     "description": "Our team helps clients become market leaders",
-    "cta": "Join Our Team"
+    "cta": "Join Our Team",
+    "stats": {
+      "projects": {
+        "value": "50+",
+        "label": "Projects"
+      },
+      "members": {
+        "value": "25+",
+        "label": "Team Members"
+      },
+      "years": {
+        "value": "5+",
+        "label": "Years Experience"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "website": "Website",
+    "phone": "Phone",
+    "email": "Email",
+    "telegram": "Telegram",
+    "linkedin": "LinkedIn"
+  },
+  "navigation": {
+    "previousProject": "Previous project",
+    "nextProject": "Next project"
+  },
+  "notFound": {
+    "message": "Oops! Page not found",
+    "cta": "Return to Home"
   },
   "partners": {
     "title": "Our Partners",
-    "olcha": "Olcha - Leading marketplace in Uzbekistan",
-    "topbrains": "TopBrains - Educational platform",
-    "nasp": "NASP - Government social services",
-    "uzinfocom": "Uzinfocom - Telecommunications",
-    "imkon": "Imkon - Financial services",
-    "trustbank": "Trust Bank - Banking solutions"
-  },
-  "contact": {
-    "title": "Get In Touch",
-    "description": "Ready to start your next project? Contact us today!",
-    "email": "Email",
-    "phone": "Phone",
-    "address": "Address",
-    "form": {
-      "name": "Your Name",
-      "email": "Your Email",
-      "message": "Your Message",
-      "send": "Send Message"
-    }
+    "description": "Trusted by leading companies across Uzbekistan"
   }
 }

@@ -1,50 +1,47 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import heroTech from "@/assets/hero-tech.jpg";
 
-export const HeroSlide = () => {
+interface HeroSlideProps {
+  togglePicture?: () => void;
+}
+
+export const HeroSlide = ({ togglePicture }: HeroSlideProps) => {
   const { t } = useTranslation();
   const title = t('hero.title');
 
   return (
     <div className="h-screen flex flex-col items-center justify-center px-8 relative overflow-hidden">
-      {/* Background Image with Parallax */}
+      {/* Animated Gradient Background - More performant */}
       <motion.div
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: `url(${heroTech})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+        className="absolute inset-0 bg-gradient-to-br from-primary/10 via-cosmic-pink/5 to-cosmic-blue/10"
         animate={{
-          scale: [1, 1.1, 1],
+          opacity: [0.3, 0.5, 0.3],
         }}
         transition={{
-          duration: 20,
+          duration: 8,
           repeat: Infinity,
           ease: "easeInOut",
         }}
       />
 
-      {/* Animated Particles */}
+      {/* Reduced Animated Particles for performance */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(20)].map((_, i) => (
+        {[...Array(10)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-2 h-2 bg-primary/40 rounded-full"
+            className="absolute w-2 h-2 bg-primary/30 rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               bottom: 0,
             }}
             animate={{
               y: -window.innerHeight,
-              scale: [1, 1.5, 0],
-              opacity: [0, 1, 0],
+              opacity: [0, 0.8, 0],
             }}
             transition={{
-              duration: 4 + Math.random() * 3,
+              duration: 5,
               repeat: Infinity,
-              delay: Math.random() * 5,
+              delay: i * 0.5,
               ease: "easeOut",
             }}
           />
@@ -57,26 +54,44 @@ export const HeroSlide = () => {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="text-center relative z-10"
       >
-        <h1 className="text-9xl font-bold mb-8 bg-gradient-to-r from-primary via-cosmic-pink to-cosmic-blue bg-clip-text text-transparent">
-          {title.split("").map((char, i) => (
-            <motion.span
-              key={i}
-              initial={{ opacity: 0, y: 50, rotateX: -90 }}
-              animate={{ opacity: 1, y: 0, rotateX: 0 }}
-              transition={{
-                delay: i * 0.08,
-                duration: 0.8,
-                type: "spring" as const,
-                stiffness: 100,
-              }}
-              className="inline-block"
-              style={{
-                textShadow: "0 0 40px hsl(var(--primary-glow) / 0.5)",
-              }}
-            >
-              {char}
-            </motion.span>
-          ))}
+        <h1 className="text-[12rem] font-bold mb-8 bg-gradient-to-r from-primary via-cosmic-pink to-cosmic-blue bg-clip-text text-transparent leading-none flex items-center justify-center gap-8">
+          <motion.img
+            src="/logo-transparent.png"
+            alt="Celion Logo"
+            className="w-48 h-48 rounded-3xl shadow-2xl"
+            initial={{ scale: 0, rotate: -180 }}
+            animate={{ scale: 1, rotate: 0 }}
+            transition={{
+              duration: 1.5,
+              type: "spring",
+              stiffness: 100,
+              delay: 0.3
+            }}
+            style={{
+              filter: "drop-shadow(0 0 40px hsl(var(--primary-glow) / 0.6))"
+            }}
+          />
+          <span>
+            {title.split("").map((char, i) => (
+              <motion.span
+                key={i}
+                initial={{ opacity: 0, y: 50, rotateX: -90 }}
+                animate={{ opacity: 1, y: 0, rotateX: 0 }}
+                transition={{
+                  delay: i * 0.08,
+                  duration: 0.8,
+                  type: "spring" as const,
+                  stiffness: 100,
+                }}
+                className="inline-block"
+                style={{
+                  textShadow: "0 0 40px hsl(var(--primary-glow) / 0.5)",
+                }}
+              >
+                {char}
+              </motion.span>
+            ))}
+          </span>
         </h1>
         
         <motion.p 
@@ -105,28 +120,47 @@ export const HeroSlide = () => {
           animate-pulse
         />
 
-        {/* Orbiting Elements */}
-        {[...Array(3)].map((_, i) => (
-          <motion.div
-            key={`orbit-${i}`}
-            className="absolute w-3 h-3 bg-cosmic-pink rounded-full"
-            style={{
-              top: "50%",
-              left: "50%",
-            }}
-            animate={{
-              rotate: 360,
-              x: Math.cos((i * 120 * Math.PI) / 180) * 200,
-              y: Math.sin((i * 120 * Math.PI) / 180) * 200,
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "linear",
-              delay: i * 0.5,
-            }}
-          />
-        ))}
+      </motion.div>
+
+      {/* Celion Branding */}
+      <motion.div
+        onClick={togglePicture}
+        className="absolute bottom-8 right-8 flex items-center gap-4 cursor-pointer hover:scale-110 transition-transform z-50"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{
+          opacity: [0.7, 1, 0.7],
+          scale: [0.98, 1, 0.98]
+        }}
+        transition={{
+          opacity: { duration: 3, repeat: Infinity },
+          scale: { duration: 3, repeat: Infinity },
+          delay: 2
+        }}
+      >
+        <motion.img
+          src="/logo-transparent.png"
+          alt="Celion Logo"
+          className="w-16 h-16 rounded-xl shadow-lg"
+          animate={{
+            rotate: [0, 5, -5, 0],
+          }}
+          transition={{
+            duration: 4,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{
+            filter: "drop-shadow(0 0 20px hsl(var(--primary-glow) / 0.4))"
+          }}
+        />
+        <span
+          className="text-5xl font-bold bg-gradient-to-r from-primary via-cosmic-pink to-cosmic-blue bg-clip-text text-transparent"
+          style={{
+            textShadow: "0 0 40px hsl(var(--primary-glow) / 0.3)",
+          }}
+        >
+          celion.io
+        </span>
       </motion.div>
     </div>
   );

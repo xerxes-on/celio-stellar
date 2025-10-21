@@ -1,102 +1,273 @@
 {
   "hero": {
     "title": "CELION.IO",
-    "subtitle": "Texnologiyalar va Xavfsizlik Uchrashadigan Joy",
-    "description": "Kodning birinchi qatoridan ishonchli himoyagacha"
+    "subtitle": "Texnologiyalar Xavfsizlik Bilan Uchrashadigan Joy",
+    "description": "Kodning birinchi qatoridan ishonchli himoyaga qadar",
+    "stats": {
+      "projects": "50+",
+      "projectsLabel": "Muvaffaqiyatli Loyihalar",
+      "clients": "30+",
+      "clientsLabel": "Mamnun Mijozlar",
+      "years": "5+",
+      "yearsLabel": "Yillik Tajriba",
+      "team": "20+",
+      "teamLabel": "Mutaxassis Jamoa A'zolari"
+    },
+    "impact": "Bizning Ta'sirimiz",
+    "impactDescription": "Bizga O'zbekistonning yetakchi kompaniyalari ishonadi"
   },
   "services": {
-    "title": "Bizning Xizmatlar",
+    "title": "Xizmatlarimiz",
     "webDev": {
       "title": "Veb Dasturlash",
       "description": "Zamonaviy texnologiyalar va eng yaxshi amaliyotlar bilan maxsus veb-ilovalar"
     },
     "mobileDev": {
       "title": "Mobil Dasturlash",
-      "description": "iOS va Android uchun mahalliy va ko'p platformali mobil yechimlar"
+      "description": "iOS va Android uchun nativ va kross-platforma mobil yechimlari"
     },
     "security": {
       "title": "Kiberxavfsizlik",
-      "description": "Keng qamrovli xavfsizlik auditlari va himoya yechimlari"
+      "description": "Keng qamrovli xavfsizlik auditi va himoya yechimlari"
     },
     "consulting": {
       "title": "IT Konsalting",
-      "description": "Biznesingizni rivojlantirish uchun strategik texnologiya maslahati"
+      "description": "Biznesingizni rivojlantirish uchun strategik texnologik maslahat"
     },
     "cloud": {
       "title": "Bulutli Yechimlar",
       "description": "Bulut infratuzilmasini loyihalash, ko'chirish va optimallashtirish"
     },
     "ai": {
-      "title": "AI va Mashinani O'rganish",
-      "description": "Aqlli avtomatlashtirish va ma'lumotlarga asoslangan tushunchalar"
+      "title": "AI va Mashinali O'rganish",
+      "description": "Aqlli avtomatlashtirish va ma'lumotlarga asoslangan tahlil"
     }
   },
   "projects": {
-    "title": "Bizning Loyihalar",
+    "title": "Bizning Loyihalarimiz",
     "olcha": {
       "title": "Olcha Marketplace",
-      "description": "O'zbekistondagi yetakchi savdo platformasi, 50,000+ mahsulot",
-      "tech": "Elektron tijorat • Mobil ilovalar • To'lovlar"
+      "description": "O'zbekistondagi yetakchi savdo platformasi bo'lib, 50 000 dan ortiq mahsulotlarni taklif etadi. App Store va Google Play'dagi qulay ilovalari xaridni oddiy qiladi. Butun mamlakat bo'ylab tez yetkazib berish va turli to'lov usullari bilan xizmat qiladi.",
+      "tech": "React • Node.js • PostgreSQL • Redis • Mikroservislar"
     },
     "topbrains": {
-      "title": "TopBrains Ta'lim",
-      "description": "Eng yaxshi o'qituvchilardan kurslar bilan ta'lim platformasi",
-      "tech": "Ta'lim texnologiyalari • React • Video oqimlari"
+      "title": "TopBrains",
+      "description": "Top Brains - yetakchi o'qituvchilardan keng ko'lamli kurslarni taklif etuvchi ta'lim platformasi. Bepul kurslar va turli mavzularni chuqur o'rganish uchun pullik dasturlar mavjud. Har bir foydalanuvchiga ta'lim maqsadlariga erishishda yordam beradi.",
+      "tech": "Next.js • Video Striming • Ta'limni Boshqarish • Analitika"
     },
-    "nasp": {
-      "title": "NASP (IXMA)",
-      "description": "Milliy ijtimoiy himoya agentligining raqamli portali",
-      "tech": "Davlat texnologiyalari • Mobil • Power BI"
+    "ihma": {
+      "title": "IHMA (NASP)",
+      "description": "O'zbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy Himoya Milliy Agentligi 2023 yil iyun oyida tashkil etilgan. IHMA qarovga muhtoj guruhlarga markazlashtirilgan ijtimoiy xizmatlar ko'rsatadi. 'My IHMA' raqamli platformasi orqali onlayn ariza yuborish mumkin.",
+      "tech": "Gov Tech • Power BI • Portal Ishlab Chiqish • Bulut Infratuzilmasi"
+    },
+    "praelegal": {
+      "title": "PraeLegal Uzbekistan",
+      "description": "PraeLegal Uzbekistan — Toshkentda joylashgan xalqaro yuridik firma bo'lib, 140 dan ortiq mamlakatlarda faoliyat yurituvchi PraeLegal tarmog'ining aʼzosidir. Korporativ va tijorat huquqi, xalqaro arbitraj, soliq, intellektual mulk, moliya, IT va kriptovalyuta tartibga solish sohalarida xizmat ko'rsatadi.",
+      "tech": "Legal Tech • Hujjatlarni Boshqarish • CRM • Ishlarni Boshqarish"
+    },
+    "emu": {
+      "title": "EMU University",
+      "description": "EMU University — Toshkentda 2020–2022 yillarda tashkil etilgan xususiy universitet. Tibbiyot, farmatsevtika, biznes va ijtimoiy fanlar yo'nalishlarida ta'lim beradi. Ikkita zamonaviy kampus va klinik bazaga ega. 2500 dan ortiq talaba tahsil oladi.",
+      "tech": "LMS • Talaba Portali • Kampusni Boshqarish • Elektron Ta'lim"
+    },
+    "express24": {
+      "title": "Express 24",
+      "description": "Express 24 — O'zbekistondagi eng mashhur onlayn ovqat yetkazib berish xizmatlaridan biri. Yuzlab restoran va kafelarni birlashtirib, qulay ilova va tezkor yetkazib berish xizmatini taqdim etadi. Keng taom tanlovi bilan ovqat buyurtma qilishni tez va ishonchli qiladi.",
+      "tech": "React Native • Real-vaqt • Joylashuv • To'lov Tizimi"
+    },
+    "mediapark": {
+      "title": "Media Park",
+      "description": "Media Park — O'zbekistonning yetakchi onlayn do'konlaridan biri bo'lib, keng oflayn savdo nuqtalariga ega. Elektronika, maishiy texnika va boshqa tovarlarning katta tanlovini taklif etadi. Onlayn platforma va jismoniy do'konlar birligi xaridni qulay qiladi.",
+      "tech": "E-commerce • Omborxona Boshqaruvi • POS Integratsiya • Mobil Ilovalar"
+    },
+    "elmakon": {
+      "title": "Elmakon",
+      "description": "Elmakon — O'zbekistondagi eng birinchi va yetakchi onlayn do'konlardan biri. Butun mamlakat bo'ylab oflayn savdo nuqtalari bilan onlayn xarid qilish qulayligini birlashtiradi. Elektronika, maishiy texnika va boshqa mahsulotlarning keng tanlovini taklif etadi.",
+      "tech": "E-commerce • Ko'p Kanalli • Logistika • To'lov Tizimlari"
+    },
+    "mytaxi": {
+      "title": "MyTaxi",
+      "description": "MyTaxi — O'zbekiston bo'ylab qulay va sifatli taksi xizmati. Tezkor taksi chaqirish uchun qulay ilova, shaffof tariflar va professional haydovchilarni taqdim etadi. Har bir safarni xavfsiz va yoqimli qiladi.",
+      "tech": "React Native • Real-vaqt Kuzatuv • To'lov Tizimi • Haydovchi Ilovasi"
+    },
+    "workly": {
+      "title": "Workly",
+      "description": "Workly — xodimlar boshqaruvini soddalashtirish uchun yaratilgan avtomatlashtirilgan vaqt hisobi tizimi. Xodimlarning davomatini, ish jadvalini va samaradorligini kuzatishda yordam beradi. Zamonaviy texnologiyalar bilan jarayonlarni shaffof va samarali qiladi.",
+      "tech": "HR Tech • Vaqt Hisobi • Analitika • Mobil va Veb Ilovalar"
+    },
+    "ufarmer": {
+      "title": "UFarmer",
+      "description": "UFarmer — agrar sohani rivojlantirish uchun yaratilgan yagona raqamli ekotizim. Fermerlar uchun marketpleys, agroapteka, aqlli agro taqvim va mashina o'rganish asosida o'simlik kasalliklarini aniqlash tizimini o'z ichiga oladi.",
+      "tech": "Marketpleys • Mashinali O'rganish • Mobil Ilovalar • IoT Integratsiya"
+    },
+    "mavera": {
+      "title": "Mavera",
+      "description": "Mavera — tillarni o'rganish va turli sohalarda kasbiy rivojlanish uchun ta'lim platformasi. O'quvchilar va o'qituvchilarni birlashtirib, interaktiv kurslar, individual darslar va zamonaviy o'quv materiallariga kirish imkonini beradi.",
+      "tech": "EdTech • Video Konferensiya • LMS • Interaktiv Ta'lim"
+    },
+    "stsparce": {
+      "title": "St-Sparce",
+      "description": "St-Sparce — yuqori sifatli avtomobil ehtiyot qismlarini taklif qiluvchi platforma. Turli avtomobil modellari uchun ishonchli va mustahkam qismlarga kirish imkonini beradi. Yetakchi ishlab chiqaruvchilarning mahsulotlarini taklif etadi.",
+      "tech": "E-commerce • Omborxona • Ehtiyot Qismlar Katalogi • B2B Platforma"
+    },
+    "makontv": {
+      "title": "Makon TV",
+      "description": "Makon TV — zamonaviy media platforma. Mobil ilova orqali ko'rsatuvlar, yangiliklar va ko'ngilochar dasturlarni istalgan vaqtda va joyda tomosha qilish mumkin. Yangiliklar, bilim beruvchi kontent va qiziqarli ko'rsatuvlarni bir joyda jamlaydi.",
+      "tech": "Video Striming • CDN • Mobil Ilovalar • Kontent Boshqaruvi"
+    },
+    "umumiy": {
+      "title": "Umumiy",
+      "description": "Umumiy — butun O'zbekiston bo'ylab oflayn savdo nuqtalariga ega parfyumeriya distribyutori. Dunyoga mashhur brendlarning original atirlarini keng tanlovda taklif etadi. Mahsulot sifati va mijozlarga xizmatga alohida e'tibor qaratadi.",
+      "tech": "Chakana Savdo Boshqaruvi • Omborxona • POS • E-commerce"
+    },
+    "nasiya": {
+      "title": "Nasiya",
+      "description": "Nasiya — foizsiz halol to'lov tizimi. Olcha Marketplace va oflayn do'konlar bilan hamkorlikda ishlaydi. Shariat tamoyillariga amal qilgan holda kerakli mahsulotlarni bo'lib to'lash imkonini yaratadi.",
+      "tech": "Fintech • To'lov Tizimi • Shariat Muvofiqlik • Mobil Ilovalar"
+    },
+    "pixletoys": {
+      "title": "PixleToys",
+      "description": "PixleToys — bolalar kiyimlariga ixtisoslashgan onlayn do'kon. Chaqaloqlar va o'smirlar uchun zamonaviy, sifatli va qulay kiyimlarning keng tanlovini taklif etadi. Material xavfsizligi va bolalar qulayligiga e'tibor qaratadi.",
+      "tech": "E-commerce • Mahsulot Katalogi • Mobil Xarid • To'lov Integratsiyasi"
+    },
+    "crmtravel": {
+      "title": "CRM Travel",
+      "description": "CRM Travel — sayohat agentliklari uchun maxsus CRM tizimi. Barcha lidlarni yagona bazada to'plab, avtomatik tarzda menejerlarga taqsimlaydi. HR boshqaruvi funksiyalari bilan xodimlar ishini samarali tashkil etadi.",
+      "tech": "CRM • Lidlarni Boshqarish • HR Moduli • Analitik Dashboard"
+    },
+    "olchacrm": {
+      "title": "Olcha CRM",
+      "description": "Olcha CRM — Olcha Marketplace hamkorlari uchun maxsus CRM tizimi. Mahsulotlarni nazorat qilish, savdolarni boshqarish va real vaqt rejimida batafsil hisobotlarni olish imkonini beradi. Biznes jarayonlarini optimallashtirishga yordam beradi.",
+      "tech": "CRM • Real-vaqt Analitika • Omborxona Boshqaruvi • API Integratsiya"
+    },
+    "telegramkiosk": {
+      "title": "Telegram Kiosk",
+      "description": "Telegram Kiosk — Telegram bot ko'rinishida ishlab chiqilgan ilk onlayn do'kon. Mahsulotlarni ko'rish, tanlash va to'g'ridan-to'g'ri Telegram orqali buyurtma berish imkonini beradi. Qulay interfeys bilan onlayn xaridni oson qiladi.",
+      "tech": "Telegram Bot • E-commerce • To'lov Integratsiyasi • Buyurtmalarni Boshqarish"
+    },
+    "billing": {
+      "title": "Billing",
+      "description": "Billing — tashqi manbalardan kelayet mablag'larni hisobga olish uchun yagona moliyaviy tizim. Avtomatik yechib olish, tranzaksiyalarni nazorat qilish va moliyaviy hisobotlarni shakllantirish jarayonlarini avtomatlashtiradi.",
+      "tech": "Fintech • To'lovlarni Qayta Ishlash • Hisobotlar • Integratsiya"
+    },
+    "olchapay": {
+      "title": "Olcha Pay",
+      "description": "Olcha Pay — Olcha Marketplace ekotizimining asosiy qismi. To'lovlarni qabul qilish va qayta ishlash uchun mo'ljallangan. Olcha Marketplace va tashqi hamkorlar uchun xizmat qiladi. Yuqori xavfsizlik va tezkor tranzaksiyalar bilan ishonchli to'lov yechimlari.",
+      "tech": "To'lov Tizimi • Xavfsizlik • API • Ko'p Kanalli Qayta Ishlash"
+    },
+    "callcentr": {
+      "title": "Call Centr",
+      "description": "Call Centr — veb-sayt, mobil ilovalar va boshqa manbalardan kelib tushgan so'rovlarni boshqarish platformasi. Tezkor qo'ng'iroqlar, oldindan buyurtmalarni boshqarish va murojaat holatini kuzatish imkonini beradi.",
+      "tech": "Call Markaz • CRM Integratsiya • Avto-qo'ng'iroq • Real-vaqt Dashboard"
+    },
+    "search": {
+      "title": "Search",
+      "description": "Search — Olcha Marketplace saytiga o'rnatilgan aqlli qidiruv tizimi. Kerakli mahsulotlar, brendlar va toifalarni tez topishda yordam beradi. Mashina o'rganish texnologiyalari bilan natijalar aniqligini oshiradi.",
+      "tech": "Elasticsearch • Mashinali O'rganish • NLP • Real-vaqt Indekslash"
+    },
+    "olchainvest": {
+      "title": "Olcha Invest",
+      "description": "Olcha Invest — shariat tamoyillariga muvofiq xavfsiz halol investitsiya tizimi. Foiz va spekulyatsiyasiz shaffof investitsiya imkoniyatlarini taqdim etadi. Islomiy qadriyatlarga rioya qilgan holda kapitalni ko'paytirish imkonini beradi.",
+      "tech": "Fintech • Investitsiya Platformasi • Shariat Muvofiqlik • Analitika"
+    },
+    "msmcapital": {
+      "title": "MSM Capital",
+      "description": "MSM Capital — turli biznes yo'nalishlarini birlashtiruvchi investitsion xolding. Texnologiya, savdo, moliya va xizmat sohalaridagi sho'ba korxonalarni rivojlantirish va qo'llab-quvvatlash bilan shug'ullanadi.",
+      "tech": "Portfel Boshqaruvi • Analitika • Moliyaviy Hisobotlar • Dashboard"
+    },
+    "astrabuilding": {
+      "title": "ASTRA Building",
+      "description": "ASTRA Building — turar joy va tijorat binolarini qurishga ixtisoslashgan qurilish kompaniyasi. Zamonaviy texnologiyalar, sifatli materiallar bilan loyihalarning ishonchliligi va mustahkamligini ta'minlaydi.",
+      "tech": "Qurilish Boshqaruvi • Loyihalarni Rejalashtirish • BIM • Resurslarni Kuzatish"
+    },
+    "olchanasiyacrm": {
+      "title": "Olcha Nasiya CRM",
+      "description": "Olcha Nasiya CRM — Nasiya bo'lib to'lash tizimi asosida ishlaydigan oflayn do'konlar uchun maxsus CRM. Savdolar, mijozlar va moliyaviy operatsiyalarni to'liq nazorat qilish imkonini beradi.",
+      "tech": "CRM • POS Integratsiya • To'lovlarni Kuzatish • Omborxona Boshqaruvi"
+    },
+    "ihmapowerbi": {
+      "title": "IHMA Power BI",
+      "description": "IHMA Power BI — ko'plab foydali ma'lumotlar va ko'rsatkichlarni bitta oynada jamlagan analitik dashboard. Asosiy indikatorlarni vizuallashtirish va aniq ma'lumotlarga asoslangan qarorlar qabul qilish imkonini beradi.",
+      "tech": "Power BI • Ma'lumotlar Analitikasi • Vizualizatsiya • Real-vaqt Dashboardlar"
+    },
+    "ihmadelegation": {
+      "title": "IHMA Delegation",
+      "description": "IHMA Delegation — delegatsion uchrashuvlarni to'liq nazorat qilish platformasi. Rejalashtirishdan bildirishnomalar va xabar almashuvigacha jarayonni qamrab oladi. Ko'ngillilar va haydovchilarni boshqarish bilan shaffof aloqani ta'minlaydi.",
+      "tech": "Tadbirlarni Boshqarish • Rejalashtirish • Bildirishnomalar • Ko'ngillilarni Boshqarish"
+    },
+    "vafragroup": {
+      "title": "Vafra Group",
+      "description": "Vafra Group — zamonaviy oyna yechimlariga ixtisoslashgan kompaniya. Energiya tejovchi, shovqinga qarshi va dizayn jihatdan jozibador oynalarni turar joy va tijorat binolari uchun taklif etadi.",
+      "tech": "E-commerce • Mahsulot Katalogi • B2B Platforma • Omborxona"
+    },
+    "teztaxi": {
+      "title": "TezTaxi",
+      "description": "TezTaxi — o'z-o'ziga xizmat ko'rsatish kiosklari orqali bir bosishda taksi chaqirish xizmati. Haydovchining kelishini va safar jarayonini QR-kod orqali kuzatish mumkin. Tez, xavfsiz va zamonaviy taksi chaqirish.",
+      "tech": "Kiosk Tizimi • QR Integratsiya • Real-vaqt Kuzatuv • To'lov"
+    },
+    "riders": {
+      "title": "Riders",
+      "description": "Riders — butun O'zbekiston bo'ylab onlayn buyurtma qilingan bank kartalarini yetkazib berish tizimi. Xavfsiz, tez va ishonchli yetkazib berish, bank maxfiyligi talablariga to'liq mos.",
+      "tech": "Logistika • Real-vaqt Kuzatuv • Xavfsizlik • Mobil Ilovalar"
+    },
+    "yordamda": {
+      "title": "Yordamda",
+      "description": "Yordamda — turli xizmatlarga muhtoj bo'lganlar bilan xizmat ko'rsatuvchilarni bog'laydigan onlayn platforma. Buyurtmachilari va ijrochilarni birlashtirib, hamkorlik uchun qulay muhit yaratadi.",
+      "tech": "Marketpleys • Bron Qilish Tizimi • To'lov Tizimi • Reyting Tizimi"
     }
   },
   "about": {
-    "title": "Qanday Ishlaymiz",
+    "title": "Biz Qanday Ishlaymiz",
     "honesty": {
       "title": "Halollik",
-      "description": "Natijaga halol yondashuv. Batafsil audit bilan boshlaymiz - kod, xavfsizlik va funksionallik"
+      "description": "Natijalarga halol yondashuv. Biz batafsil audit bilan boshlaymiz - kod, xavfsizlik va funksionallik"
     },
     "flexibility": {
       "title": "Moslashuvchanlik",
-      "description": "Sizning ehtiyojlaringiz va ish ritmingizga moslashamiz, maksimal qulaylik yaratamiz"
+      "description": "Biz sizning ehtiyojlaringiz va ish ritmingizga moslashamiz, maksimal qulaylikni ta'minlaymiz"
     },
     "reporting": {
-      "title": "Hisobot Berish",
-      "description": "Ish jarayoni haqida muntazam hisobotlar va barcha bosqichlarda shaffof muloqot"
+      "title": "Hisobot",
+      "description": "Ish jarayoni bo'yicha muntazam hisobotlar va barcha bosqichlarda shaffof muloqot"
     }
-  },
-  "technologies": {
-    "title": "Foydalanadigan Texnologiyalar",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "mobile": "Mobil",
-    "devops": "DevOps",
-    "database": "Ma'lumotlar bazasi"
   },
   "team": {
     "title": "Bizning Jamoa",
-    "description": "Bizning jamoa mijozlarga bozor yetakchisi bo'lishga yordam beradi",
-    "cta": "Jamoamizga Qo'shiling"
-  },
-  "partners": {
-    "title": "Bizning Hamkorlar",
-    "olcha": "Olcha - O'zbekistondagi yetakchi marketplace",
-    "topbrains": "TopBrains - Ta'lim platformasi",
-    "nasp": "NASP - Davlat ijtimoiy xizmatlari",
-    "uzinfocom": "Uzinfocom - Telekommunikatsiya",
-    "imkon": "Imkon - Moliyaviy xizmatlar",
-    "trustbank": "Trust Bank - Bank yechimlari"
+    "description": "Bizning jamoa mijozlarga bozor yetakchisi bo'lishda yordam beradi",
+    "cta": "Bizning Jamoaga Qo'shiling",
+    "stats": {
+      "projects": {
+        "value": "50+",
+        "label": "Loyihalar"
+      },
+      "members": {
+        "value": "25+",
+        "label": "Jamoa a'zolari"
+      },
+      "years": {
+        "value": "5+",
+        "label": "Yillik tajriba"
+      }
+    }
   },
   "contact": {
-    "title": "Biz Bilan Bog'laning",
-    "description": "Keyingi loyihangizni boshlashga tayyormisiz? Bugun biz bilan bog'laning!",
-    "email": "Email",
+    "title": "Biz bilan bog'laning",
+    "website": "Veb-sayt",
     "phone": "Telefon",
-    "address": "Manzil",
-    "form": {
-      "name": "Ismingiz",
-      "email": "Emailingiz",
-      "message": "Xabaringiz",
-      "send": "Yuborish"
-    }
+    "email": "Email",
+    "telegram": "Telegram",
+    "linkedin": "LinkedIn"
+  },
+  "navigation": {
+    "previousProject": "Oldingi loyiha",
+    "nextProject": "Keyingi loyiha"
+  },
+  "notFound": {
+    "message": "Ups! Sahifa topilmadi",
+    "cta": "Bosh sahifaga qaytish"
+  },
+  "partners": {
+    "title": "Bizning Hamkorlarimiz",
+    "description": "Bizga O'zbekistonning yetakchi kompaniyalari ishonadi"
   }
 }

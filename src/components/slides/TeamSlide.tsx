@@ -73,9 +73,18 @@ export const TeamSlide = () => {
         {/* Animated Stats */}
         <div className="grid grid-cols-3 gap-8 mb-12">
           {[
-            { value: "50+", label: "Projects" },
-            { value: "25+", label: "Team Members" },
-            { value: "5+", label: "Years Experience" },
+            {
+              value: t("team.stats.projects.value"),
+              label: t("team.stats.projects.label"),
+            },
+            {
+              value: t("team.stats.members.value"),
+              label: t("team.stats.members.label"),
+            },
+            {
+              value: t("team.stats.years.value"),
+              label: t("team.stats.years.label"),
+            },
           ].map((stat, index) => (
             <motion.div
               key={index}

@@ -1,56 +1,73 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HeroSlide } from "./slides/HeroSlide";
+import { StatsSlide } from "./slides/StatsSlide";
 import { ServicesSlide } from "./slides/ServicesSlide";
-import { ProjectsSlide } from "./slides/ProjectsSlide";
-import { TechnologiesSlide } from "./slides/TechnologiesSlide";
-import { AboutSlide } from "./slides/AboutSlide";
-import { TeamSlide } from "./slides/TeamSlide";
-import { PartnersSlide } from "./slides/PartnersSlide";
+import { ProjectsCarouselSlide } from "./slides/ProjectsCarouselSlide";
+import { OlchaSlide } from "./slides/projects/OlchaSlide";
+import { TopBrainsSlide } from "./slides/projects/TopBrainsSlide";
+import { IhmaSlide } from "./slides/projects/IhmaSlide";
+import { ElmakonSlide } from "./slides/projects/ElmakonSlide";
+import { EmuSlide } from "./slides/projects/EmuSlide";
+import { Express24Slide } from "./slides/projects/Express24Slide";
+import { TezTaxiSlide } from "./slides/projects/TezTaxiSlide";
+import { MediaParkSlide } from "./slides/projects/MediaParkSlide";
+import { MyTaxiSlide } from "./slides/projects/MyTaxiSlide";
+import { WorklySlide } from "./slides/projects/WorklySlide";
+import { UFarmerSlide } from "./slides/projects/UFarmerSlide";
+import { MaveraSlide } from "./slides/projects/MaveraSlide";
+import { YordamdaSlide } from "./slides/projects/YordamdaSlide";
+import { PixleToysSlide } from "./slides/projects/PixleToysSlide";
+import { AstraBuildingSlide } from "./slides/projects/AstraBuildingSlide";
+import { VafraGroupSlide } from "./slides/projects/VafraGroupSlide";
 import { ContactSlide } from "./slides/ContactSlide";
-import { LanguageSwitcher } from "./LanguageSwitcher";
 
-const slides = [HeroSlide, ServicesSlide, ProjectsSlide, TechnologiesSlide, AboutSlide, TeamSlide, PartnersSlide, ContactSlide];
+const slides = [HeroSlide, StatsSlide, ServicesSlide, ProjectsCarouselSlide, OlchaSlide, TopBrainsSlide, IhmaSlide, ElmakonSlide, EmuSlide, Express24Slide, TezTaxiSlide, MediaParkSlide, MyTaxiSlide, WorklySlide, UFarmerSlide, MaveraSlide, YordamdaSlide, PixleToysSlide, AstraBuildingSlide, VafraGroupSlide, ContactSlide];
 
 export const PresentationContainer = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [picture, setPicture] = useState(false);
+
+  const togglePicture = () => {
+    setPicture((prev) => !prev);
+  };
 
   useEffect(() => {
+    // Don't auto-advance if picture mode is active
+    if (picture) return;
+
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 8000);
+    }, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [picture]);
 
-  const CurrentSlideComponent = slides[currentSlide];
+  // Show HeroSlide when picture is true, otherwise show current slide
+  const CurrentSlideComponent = picture ? HeroSlide : slides[currentSlide];
 
   const slideTransitions = [
-    { initial: { opacity: 0, x: -1000, rotateY: -90 }, exit: { opacity: 0, x: 1000, rotateY: 90 } },
-    { initial: { opacity: 0, scale: 0, rotate: -180 }, exit: { opacity: 0, scale: 2, rotate: 180 } },
-    { initial: { opacity: 0, y: 1000 }, exit: { opacity: 0, y: -1000 } },
-    { initial: { opacity: 0, clipPath: "circle(0% at 50% 50%)" }, exit: { opacity: 0, clipPath: "circle(0% at 50% 50%)" } },
-    { initial: { opacity: 0, x: 1000, scale: 0.5 }, exit: { opacity: 0, x: -1000, scale: 0.5 } },
-    { initial: { opacity: 0, rotateX: 90 }, exit: { opacity: 0, rotateX: -90 } },
-    { initial: { opacity: 0, scale: 2 }, exit: { opacity: 0, scale: 0 } },
-    { initial: { opacity: 0, y: -1000, rotateZ: 180 }, exit: { opacity: 0, y: 1000, rotateZ: -180 } },
+    { initial: { opacity: 0, x: -100 }, exit: { opacity: 0, x: 100 } },
+    { initial: { opacity: 0, scale: 0.8 }, exit: { opacity: 0, scale: 1.2 } },
+    { initial: { opacity: 0, y: 100 }, exit: { opacity: 0, y: -100 } },
+    { initial: { opacity: 0, x: 100 }, exit: { opacity: 0, x: -100 } },
+    { initial: { opacity: 0, scale: 1.2 }, exit: { opacity: 0, scale: 0.8 } },
+    { initial: { opacity: 0, y: -100 }, exit: { opacity: 0, y: 100 } },
   ];
 
   const currentTransition = slideTransitions[currentSlide % slideTransitions.length];
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <LanguageSwitcher />
-      
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
           initial={currentTransition.initial}
-          animate={{ opacity: 1, scale: 1, x: 0, y: 0, rotate: 0, rotateY: 0, rotateX: 0, rotateZ: 0, clipPath: "circle(150% at 50% 50%)" }}
+          animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
           exit={currentTransition.exit}
-          transition={{ duration: 1.2, ease: [0.43, 0.13, 0.23, 0.96] }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
           className="absolute inset-0"
         >
-          <CurrentSlideComponent />
+          <CurrentSlideComponent togglePicture={togglePicture} />
         </motion.div>
       </AnimatePresence>
 

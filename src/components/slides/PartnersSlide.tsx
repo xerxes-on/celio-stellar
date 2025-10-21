@@ -46,6 +46,16 @@ export const PartnersSlide = () => {
           </motion.div>
         ))}
       </div>
+
+      {/* Celion Branding */}
+      <motion.div
+        className="absolute bottom-8 right-8 text-foreground/20 font-semibold text-2xl"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1 }}
+      >
+        celion.io
+      </motion.div>
     </div>
   );
 };
