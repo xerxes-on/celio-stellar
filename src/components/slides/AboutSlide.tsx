@@ -10,7 +10,7 @@ export const AboutSlide = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          About Celion
+          How We Work
         </motion.h2>
         
         <motion.div
@@ -20,12 +20,12 @@ export const AboutSlide = () => {
           className="space-y-8"
         >
           <p className="text-3xl text-foreground/90 leading-relaxed">
-            We are a cutting-edge technology company pushing the boundaries of innovation.
+            Design, Development and Security
           </p>
           
           <p className="text-2xl text-foreground/70 leading-relaxed">
-            Our mission is to create transformative solutions that shape the future of technology 
-            and empower businesses worldwide.
+            Experience in creating websites and mobile applications, as well as providing IT consulting services. 
+            Our team helps clients become market leaders.
           </p>
           
           <motion.div 
@@ -34,17 +34,20 @@ export const AboutSlide = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <div className="text-center">
-              <div className="text-6xl font-bold text-primary mb-2">50+</div>
-              <div className="text-xl text-foreground/60">Projects Delivered</div>
+            <div className="bg-card/20 backdrop-blur-lg border border-primary/20 rounded-2xl p-8 text-center">
+              <div className="text-5xl mb-4">🎯</div>
+              <div className="text-3xl font-bold text-primary mb-3">Honesty</div>
+              <div className="text-lg text-foreground/60">Detailed audit, transparent goals, realistic deadlines</div>
             </div>
-            <div className="text-center">
-              <div className="text-6xl font-bold text-cosmic-pink mb-2">100+</div>
-              <div className="text-xl text-foreground/60">Happy Clients</div>
+            <div className="bg-card/20 backdrop-blur-lg border border-cosmic-pink/20 rounded-2xl p-8 text-center">
+              <div className="text-5xl mb-4">🤝</div>
+              <div className="text-3xl font-bold text-cosmic-pink mb-3">Flexibility</div>
+              <div className="text-lg text-foreground/60">Personal manager, your rhythm, full transparency</div>
             </div>
-            <div className="text-center">
-              <div className="text-6xl font-bold text-cosmic-blue mb-2">15+</div>
-              <div className="text-xl text-foreground/60">Years Experience</div>
+            <div className="bg-card/20 backdrop-blur-lg border border-cosmic-blue/20 rounded-2xl p-8 text-center">
+              <div className="text-5xl mb-4">📊</div>
+              <div className="text-3xl font-bold text-cosmic-blue mb-3">Reporting</div>
+              <div className="text-lg text-foreground/60">Twice weekly updates, monthly comprehensive reports</div>
             </div>
           </motion.div>
         </motion.div>

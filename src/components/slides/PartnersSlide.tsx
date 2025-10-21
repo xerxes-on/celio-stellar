@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const partners = [
-  "TechCorp Global",
-  "Innovation Labs",
-  "Digital Ventures",
-  "Cloud Solutions Inc",
-  "Future Systems",
-  "Quantum Dynamics",
+  "Olcha Marketplace",
+  "TopBrains",
+  "NASP Uzbekistan",
+  "PraeLegal",
+  "Express 24",
+  "EMU University",
 ];
 
 export const PartnersSlide = () => {

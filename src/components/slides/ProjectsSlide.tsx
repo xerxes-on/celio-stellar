@@ -3,19 +3,19 @@ import { Card } from "@/components/ui/card";
 
 const projects = [
   {
-    title: "Project Alpha",
-    description: "Revolutionary AI-powered solution",
-    tech: "AI/ML • Cloud • React",
+    title: "Olcha Marketplace",
+    description: "Leading trading platform in Uzbekistan with 50,000+ products",
+    tech: "E-commerce • Mobile Apps • Payments",
   },
   {
-    title: "Project Nova",
-    description: "Next-gen blockchain platform",
-    tech: "Web3 • Smart Contracts • DeFi",
+    title: "TopBrains Education",
+    description: "Educational platform with courses from top instructors",
+    tech: "EdTech • React • Video Streaming",
   },
   {
-    title: "Project Quantum",
-    description: "Advanced data analytics suite",
-    tech: "Big Data • Analytics • Python",
+    title: "NASP (IHMA)",
+    description: "National Agency for Social Protection digital portal",
+    tech: "Gov Tech • Mobile • Power BI",
   },
 ];
 

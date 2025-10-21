@@ -59,12 +59,21 @@ export const HeroSlide = () => {
         </h1>
         
         <motion.p 
-          className="text-4xl text-foreground/80 font-light tracking-wide"
+          className="text-4xl text-foreground/80 font-light tracking-wide mb-4"
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
         >
-          Innovation in Action
+          Where Technologies Meet Security
+        </motion.p>
+        
+        <motion.p 
+          className="text-3xl text-foreground/60 font-light tracking-wide"
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1.4, duration: 0.8 }}
+        >
+          From the first line of code to reliable protection
         </motion.p>
         
         <motion.div
