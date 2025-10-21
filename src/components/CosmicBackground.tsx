@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 // @ts-ignore - vanta types are limited
-import BIRDS from "vanta/dist/vanta.birds.min.js";
+import WAVES from "vanta/dist/vanta.waves.min.js";
 // @ts-ignore
 import * as THREE from "three";
 
@@ -21,27 +21,17 @@ export const CosmicBackground = () => {
 
   useEffect(() => {
     if (!vantaEffect && vantaRef.current) {
-      const effect = BIRDS({
+      const effect = WAVES({
         el: vantaRef.current,
         THREE,
         mouseControls: false,
         touchControls: false,
         gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        backgroundColor: 0x0a0118,
-        color1: 0x8b5cf6,
-        color2: 0xec4899,
-        colorMode: "lerp",
-        birdSize: 1.2,
-        wingSpan: 25.00,
-        speedLimit: 4.00,
-        separation: 40.00,
-        alignment: 40.00,
-        cohesion: 20.00,
-        quantity: 3.00,
+        color: 0x0a0118,
+        shininess: 30.00,
+        waveHeight: 15.00,
+        waveSpeed: 0.75,
+        zoom: 0.65,
       });
       setVantaEffect(effect);
     }
