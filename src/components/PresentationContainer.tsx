@@ -32,15 +32,26 @@ export const PresentationContainer = () => {
     setPicture((prev) => !prev);
   };
 
+  // Get duration for current slide (in milliseconds)
+  const getSlideDuration = (slideIndex: number) => {
+    // ProjectsCarouselSlide is at index 3
+    if (slideIndex === 3) {
+      return 30000; // 30 seconds for ProjectsCarouselSlide
+    }
+    return 10000; // 10 seconds for all other slides
+  };
+
   useEffect(() => {
     // Don't auto-advance if picture mode is active
     if (picture) return;
 
-    const timer = setInterval(() => {
+    const duration = getSlideDuration(currentSlide);
+    const timer = setTimeout(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 6000);
-    return () => clearInterval(timer);
-  }, [picture]);
+    }, duration);
+
+    return () => clearTimeout(timer);
+  }, [picture, currentSlide]);
 
   // Show HeroSlide when picture is true, otherwise show current slide
   const CurrentSlideComponent = picture ? HeroSlide : slides[currentSlide];

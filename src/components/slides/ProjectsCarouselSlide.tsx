@@ -86,7 +86,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
     if (!showTitle) {
       const timer = setTimeout(() => {
         setIsPaused(true);
-      }, 35000); // Stop after 35 seconds
+      }, 27000); // Stop after 27 seconds (30 total minus 3 for title)
 
       return () => clearTimeout(timer);
     }
@@ -166,7 +166,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
           initial={{ y: -1600 }}
           animate={isPaused ? {} : { y: [-1600, -4800] }}
           transition={{
-            duration: 35,
+            duration: 27,
             repeat: isPaused ? 0 : Infinity,
             ease: "linear",
           }}
@@ -198,7 +198,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
           initial={{ y: -1600 }}
           animate={isPaused ? {} : { y: [-1600, 1600] }}
           transition={{
-            duration: 35,
+            duration: 27,
             repeat: isPaused ? 0 : Infinity,
             ease: "linear",
           }}
@@ -230,7 +230,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
           initial={{ y: -1600 }}
           animate={isPaused ? {} : { y: [-1600, -4800] }}
           transition={{
-            duration: 35,
+            duration: 27,
             repeat: isPaused ? 0 : Infinity,
             ease: "linear",
           }}
@@ -262,7 +262,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
           initial={{ y: -1600 }}
           animate={isPaused ? {} : { y: [-1600, 1600] }}
           transition={{
-            duration: 35,
+            duration: 27,
             repeat: isPaused ? 0 : Infinity,
             ease: "linear",
           }}
@@ -294,7 +294,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
           initial={{ y: -1600 }}
           animate={isPaused ? {} : { y: [-1600, -4800] }}
           transition={{
-            duration: 35,
+            duration: 27,
             repeat: isPaused ? 0 : Infinity,
             ease: "linear",
           }}
@@ -326,7 +326,7 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
           initial={{ y: -1600 }}
           animate={isPaused ? {} : { y: [-1600, 1600] }}
           transition={{
-            duration: 35,
+            duration: 27,
             repeat: isPaused ? 0 : Infinity,
             ease: "linear",
           }}
