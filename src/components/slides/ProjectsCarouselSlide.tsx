@@ -151,11 +151,12 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         {/* Column 1 */}
         <motion.div
           className="flex flex-col gap-8"
-          initial={{ y: -1600 }}
-          animate={{ y: [-1600, -4800] }}
+          initial={{ y: 0 }}
+          animate={{ y: -3200 }}
           transition={{
             duration: 27,
             repeat: Infinity,
+            repeatType: "loop",
             ease: "linear",
           }}
         >
@@ -183,11 +184,12 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         {/* Column 2 */}
         <motion.div
           className="flex flex-col gap-8"
-          initial={{ y: -1600 }}
-          animate={{ y: [-1600, 1600] }}
+          initial={{ y: -3200 }}
+          animate={{ y: 0 }}
           transition={{
             duration: 27,
             repeat: Infinity,
+            repeatType: "loop",
             ease: "linear",
           }}
         >
@@ -215,11 +217,12 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         {/* Column 3 */}
         <motion.div
           className="flex flex-col gap-8"
-          initial={{ y: -1600 }}
-          animate={{ y: [-1600, -4800] }}
+          initial={{ y: 0 }}
+          animate={{ y: -3200 }}
           transition={{
             duration: 27,
             repeat: Infinity,
+            repeatType: "loop",
             ease: "linear",
           }}
         >
@@ -247,11 +250,12 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         {/* Column 4 */}
         <motion.div
           className="flex flex-col gap-8"
-          initial={{ y: -1600 }}
-          animate={{ y: [-1600, 1600] }}
+          initial={{ y: -3200 }}
+          animate={{ y: 0 }}
           transition={{
             duration: 27,
             repeat: Infinity,
+            repeatType: "loop",
             ease: "linear",
           }}
         >
@@ -279,11 +283,12 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         {/* Column 5 */}
         <motion.div
           className="flex flex-col gap-8"
-          initial={{ y: -1600 }}
-          animate={{ y: [-1600, -4800] }}
+          initial={{ y: 0 }}
+          animate={{ y: -3200 }}
           transition={{
             duration: 27,
             repeat: Infinity,
+            repeatType: "loop",
             ease: "linear",
           }}
         >
@@ -311,11 +316,12 @@ export const ProjectsCarouselSlide = ({ togglePicture }: ProjectsCarouselSlidePr
         {/* Column 6 */}
         <motion.div
           className="flex flex-col gap-8"
-          initial={{ y: -1600 }}
-          animate={{ y: [-1600, 1600] }}
+          initial={{ y: -3200 }}
+          animate={{ y: 0 }}
           transition={{
             duration: 27,
             repeat: Infinity,
+            repeatType: "loop",
             ease: "linear",
           }}
         >
